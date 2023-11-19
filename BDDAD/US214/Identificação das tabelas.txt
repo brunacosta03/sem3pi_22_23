@@ -1,0 +1,20 @@
+Tabela de factos: 
+	Stats: Vendas em K€, Produção em toneladas
+	Os atributos restantes são os ID'S da tabelas de dimensões(ProdutoAgricola, Tempo, Setor, Cliente).
+
+Tabelas de dimensões:
+	Cultura: idCultura, TipoCultura(uma dimensão por si, pode ser atributo), designação, idSetor
+	
+	CulturaProduto: (Ligação entre o produto e a cultura) idCultura, idProduto
+	
+	ProdutoAgricola: idProduto, designação
+
+	Tempo: ano, mes
+	
+	Setor: idSetor, designação
+
+	Cliente: idCliente, nome, nif, email
+
+Objetivo do modelo:
+	De certa forma este modelo ajudará a agrupar todo o tipo de dimensões filtrando os factos(vendas e produção) pelas dimensões.
+	Isto, de uma forma intuitiva, permitirá ao utilizador selecionar dados sem a necessidade de usar tantos group by's (porque os dados já estão agrupados).

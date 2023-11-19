@@ -1,0 +1,636 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Algorithms {
+  + Algorithms():
+  + shortestPathDijkstra(Graph<V, E>, V, Comparator<E>, BinaryOperator<E>, E, V[], E[]): void
+  + kruskallAlgorithm(Graph<Member, Double>, ArrayList<Edge<Member, Double>>): void
+  + GraphDiameter(MapGraph<V, E>): int
+  + shortestPath(Graph<V, E>, V, V, Comparator<E>, BinaryOperator<E>, E, LinkedList<V>): E?
+  + shortestPaths(Graph<V, E>, V, Comparator<E>, BinaryOperator<E>, E, ArrayList<LinkedList<V>>, ArrayList<E>): boolean
+  + BreadthFirstSearch(Graph<V, E>, V): LinkedList<V>?
+  + allPaths(Graph<V, E>, V, V): ArrayList<LinkedList<V>>
+  + DepthFirstSearch(Graph<V, E>, V): LinkedList<V>?
+  + shortestPathDijkstra(Graph<V, E>, V, Comparator<E>, BinaryOperator<E>, E, V[], E[], int[]): void
+}
+class App {
+  + App():
+  + resetCompany(): void
+   company: Company
+   instance: App
+}
+class BasketLoader {
+  + BasketLoader():
+  + load(String, String): void
+  + trim(String): String
+  + load(String): void
+}
+class Client {
+  + Client(String, Location, ClientType):
+   clientType: ClientType
+}
+class ClientStore {
+  + ClientStore():
+  + addMemberRequest(Member): void
+  + resetStock(): void
+  + saveMemberRequest(): void
+   clientList: List<Member>
+   memberRequest: List<Member>
+}
+enum ClientType << enumeration >> {
+  + values(): ClientType[]
+  + valueOf(String): ClientType
+   indicator: String
+}
+class ClosestProducersToHubService {
+  + ClosestProducersToHubService():
+  + getClosestProducersToHub(Client, int, List<Member>): List<Member>
+}
+class CommonGraph<V, E> {
+  + CommonGraph(boolean):
+  + hashCode(): int
+  + vertex(Predicate<V>): V
+  + validVertex(V): boolean
+  + key(V): int
+  + numEdges(): int
+  + numVertices(): int
+  + vertex(int): V
+  + vertices(): ArrayList<V>
+  + clone(): Graph<V, E>
+  + equals(Object): boolean
+   isDirected: boolean
+}
+class Company {
+  + Company():
+  + flush(): void
+  + reset(): void
+   enterpriseClients: List<Client>
+   clientStore: ClientStore
+   producerStore: ProducerStore
+   memberGraph: MemberGraph
+   basketFile: String
+   vertexFile: String
+   irrigationSystem: IrrigationSystem
+   producers: List<Member>
+   productStore: ProductStore
+   edgeFile: String
+   clients: List<Member>
+}
+class DataFlusher {
+  + DataFlusher():
+  + resetMembers(): void
+  + flush(): void
+  + resetStocks(): void
+}
+class DistancesLoader {
+  + DistancesLoader():
+  + Load(String, boolean, String, int, List<Member>): void
+  + Load(String, List<Member>): void
+}
+class Edge<V, E> {
+  + Edge(V, V, E):
+  + equals(Object): boolean
+  + hashCode(): int
+  + toString(): String
+   VDest: V
+   VOrig: V
+   weight: E
+}
+class EnterpriseAverageDistance {
+  + EnterpriseAverageDistance(Client, double):
+  + toString(): String
+  + compareTo(EnterpriseAverageDistance): int
+   averageDistance: Double
+   client: Client
+}
+class Expedition {
+  + Expedition(Client):
+  + addProductToDeliver(ProductInfo): void
+  + toString(): String
+   clientToSatisfy: Client
+   productsToDeliver: List<ProductInfo>
+}
+class ExpeditionListController {
+  + ExpeditionListController():
+  + getExpeditionList(int, Map<Client, HubAndDistanceToAClient>, int): List<Expedition>
+  + getExpeditionListByProducerNumber(int, int, int): List<Expedition>
+  + getExpeditionList(int): List<Expedition>
+}
+class ExpeditionListService {
+  + ExpeditionListService():
+  + resetStocks(): void
+  + setNewStockQuantity(ProductStock, double, int, Member): void
+  + getExpeditionList(int, Map<Client, HubAndDistanceToAClient>, int): List<Expedition>
+  + getExpeditionList(int): List<Expedition>
+  + saveStocks(): void
+  + getSpecificProduct(List<ProductStock>, Product): ProductStock
+}
+class ExpeditionListToNProducersUI {
+  + ExpeditionListToNProducersUI():
+  + run(): void
+}
+class ExpeditionListUI {
+  + ExpeditionListUI():
+  + run(): void
+}
+class ExpeditionMinPathController {
+  + ExpeditionMinPathController():
+  + getMinPathExpedition(int, int, int, Map<String, Double>): MinPathInfo
+}
+class ExpeditionMinPathService {
+  + ExpeditionMinPathService():
+  + searchClosestProducer(Member, Graph<Member, Double>, List<Member>, List<Member>): Member
+  + minPathExpeditionByDay(int, int, int, Map<String, Double>): MinPathInfo
+  + searchClosestHub(Member, Graph<Member, Double>, List<Member>, List<Member>): Member
+}
+class ExpeditionMinPathUI {
+  + ExpeditionMinPathUI():
+  + run(): void
+}
+interface Graph<V, E> << interface >> {
+  + vertex(Predicate<V>): V
+  + removeVertex(V): boolean
+  + edge(V, V): Edge<V, E>
+  + incomingEdges(V): Collection<Edge<V, E>>
+  + validVertex(V): boolean
+  + numEdges(): int
+  + removeEdge(V, V): boolean
+  + clone(): Graph<V, E>
+  + addVertex(V): boolean
+  + adjVertices(V): Collection<V>
+  + addEdge(V, V, E): boolean
+  + vertices(): ArrayList<V>
+  + edges(): Collection<Edge<V, E>>
+  + numVertices(): int
+  + key(V): int
+  + vertex(int): V
+  + outDegree(V): int
+  + inDegree(V): int
+  + edge(int, int): Edge<V, E>
+  + outgoingEdges(V): Collection<Edge<V, E>>
+   directed: boolean
+}
+class GraphConnectedController {
+  + GraphConnectedController():
+   graphConnected: boolean
+   graphDiameter: int
+}
+class GraphConnectedUI {
+  + GraphConnectedUI():
+  + run(): void
+}
+class GraphToJsonController {
+  + GraphToJsonController():
+  + saveGraphToJson(String): void
+}
+class GraphToJsonUI {
+  + GraphToJsonUI():
+  + run(): void
+}
+class HubAndDistanceToAClient {
+  + HubAndDistanceToAClient(Client, Double):
+  + toString(): String
+   distance: Double
+   hub: Client
+}
+class IrrigationPortion {
+  + IrrigationPortion(Character, Integer, Character):
+  + compareTo(IrrigationPortion): int
+   irrigationTime: Integer
+   portionID: Character
+   regularity: Character
+   regularityENUM: Regularity
+}
+class IrrigationSystem {
+  + IrrigationSystem(LocalTime, LocalTime):
+  + addPortion(IrrigationPortion): void
+   afternoonTime: LocalTime
+   morningTime: LocalTime
+   portions: List<IrrigationPortion>
+}
+class IrrigationSystemControler {
+  + IrrigationSystemControler():
+  + whatPortionsAreWorking(LocalDateTime): Map<IrrigationPortion, String>
+}
+class IrrigationSystemLoader {
+  + IrrigationSystemLoader():
+  + loadIrrigationSystem(): void
+}
+class IrrigationSystemService {
+  + IrrigationSystemService():
+  + whatPortionsAreWorking(LocalDateTime): Map<IrrigationPortion, String>
+}
+class IrrigationSystemUI {
+  + IrrigationSystemUI():
+  + run(): void
+}
+class LoadFileController {
+  + LoadFileController():
+  + LoadBasketFile(String): void
+  + LoadLocationIDFile(String): void
+  + LoadDistancesFile(String): void
+}
+class LoadFileUI {
+  + LoadFileUI():
+  + run(): void
+}
+class LocIDFIleLoader {
+  + LocIDFIleLoader():
+  + Load(String): void
+  + trim(String): String
+}
+class Location {
+  + Location(String, String, String):
+  + compareTo(Location): int
+   id: String
+   lat: String
+   lon: String
+}
+class Main {
+  + Main():
+  + main(String[]): void
+}
+class MainMenu {
+  + MainMenu():
+  + run(): void
+}
+class MapGraph<V, E> {
+  + MapGraph(Graph<V, E>):
+  + MapGraph(boolean):
+  + adjVertices(V): Collection<V>
+  + outgoingEdges(V): Collection<Edge<V, E>>
+  + clone(): MapGraph<V, E>
+  + edge(V, V): Edge<V, E>
+  + validVertex(V): boolean
+  + incomingEdges(V): Collection<Edge<V, E>>
+  + toString(): String
+  + inDegree(V): int
+  + addVertexes(Collection<V>): int
+  + addVertex(V): boolean
+  + removeVertex(V): boolean
+  + edge(int, int): Edge<V, E>
+  + outDegree(V): int
+  + removeEdge(V, V): boolean
+  + edges(): Collection<Edge<V, E>>
+  + addEdge(V, V, E): boolean
+}
+class MapVertex<V, E> {
+  + MapVertex(V):
+  + toString(): String
+  + getEdge(V): Edge<V, E>
+  + numAdjVerts(): int
+  + addAdjVert(V, Edge<V, E>): void
+  + remAdjVert(V): void
+   allAdjVerts: Collection<V>
+   allOutEdges: Collection<Edge<V, E>>
+   element: V
+}
+class Member {
+  + Member(String, Location):
+  + addRequest(int, List<ProductStock>): void
+  + removeBasket(): void
+  + getProductByDay(int, ProductStock): ProductStock
+  + addRequest(int, Product, double): void
+  + getStockOfDay(int): List<ProductStock>
+  + toString(): String
+  + addRequest(int, ProductStock): void
+   stockRequestsPerDay: HashMap<Integer, List<ProductStock>>
+   id: String
+   location: Location
+}
+class MemberGraph {
+  + MemberGraph():
+  + reset(): void
+  + flush(): void
+  + writeJsonFile(MapGraph<Member, Double>, String): void
+   membersLocationGraph: MapGraph<Member, Double>
+   numberOfEdgesToFullyConnect: int
+   graphDiameter: int
+   loaded: boolean
+   connected: boolean
+   minEdgesToFullyConnect: int
+}
+class MenuOption {
+  + MenuOption(String, Runnable):
+   runnable: Runnable
+   optionTitle: String
+}
+class MinPathInfo {
+  + MinPathInfo(List<Member>, double, Map<Client, List<ProductInfo>>):
+   path: List<Member>
+   infoHubs: Map<Client, List<ProductInfo>>
+   totalDistance: double
+}
+class MinimumNetworkController {
+  + MinimumNetworkController():
+  + findMinimumNetwork(): ArrayList<Edge<Member, Double>>
+}
+class MinimumNetworkService {
+  + MinimumNetworkService():
+  + getEdgesOrderByWeight(Graph<Member, Double>): ArrayList<Edge<Member, Double>>
+   verticeInMST: Graph<Member, Double>
+   edgedsOrderByWeightMemberGraph: ArrayList<Edge<Member, Double>>
+}
+class MinimumNetworkUI {
+  + MinimumNetworkUI():
+  + run(): void
+}
+class NearestHubController {
+  + NearestHubController():
+  + getAllClientsEnterprises(List<EnterpriseAverageDistance>): Map<Client, HubAndDistanceToAClient>
+}
+class NearestHubService {
+  + NearestHubService():
+  + getEnterprisesCloser(List<EnterpriseAverageDistance>): Map<Client, HubAndDistanceToAClient>
+  + getEnterprises(List<EnterpriseAverageDistance>): List<Client>
+}
+class NearestHubUI {
+  + NearestHubUI():
+  + run(): void
+}
+class OptionsUI {
+  + OptionsUI():
+  + run(): void
+}
+class Producer {
+  + Producer(String, Location):
+  + getStockOfDay(int): List<ProductStock>
+}
+class ProducerStore {
+  + ProducerStore():
+  + saveProducerStore(): void
+  + addProducerStock(Member): void
+  + resetStock(): void
+   producerStore: List<Member>
+   producerList: List<Member>
+}
+class Product {
+  + Product(String):
+  + compareTo(Product): int
+   designation: String
+}
+class ProductInfo {
+  + ProductInfo(String, String, Double, Double):
+  + toString(): String
+   quantityRequested: Double
+   quantityDelivered: Double
+   productName: String
+   producerCode: String
+}
+class ProductStock {
+  + ProductStock(Product, double):
+  + increaseQuantity(double): void
+   product: Product
+   quantity: double
+}
+class ProductStore {
+  + ProductStore():
+  + getProduct(String): Product
+  + addProduct(String): void
+  + contains(String): boolean
+}
+enum Regularity << enumeration >> {
+  + values(): Regularity[]
+  + valueOf(String): Regularity
+   regularity: Character
+}
+class SortByWeight {
+  + SortByWeight():
+  + compare(Edge<Member, Double>, Edge<Member, Double>): int
+}
+class StatisticsController {
+  + StatisticsController():
+  + listClient(int, String, int, int): List<Double>
+  + listHub(int, String, int, int): List<Double>
+  + listProducer(int, String): List<Double>
+  + listHub(int, String, int): List<Double>
+  + listsCabaz(int, int, int): List<Double>
+  + listsCabaz(int): List<Double>
+  + listProducer(int, String, int, int): List<Double>
+  + clientsCabaz(): List<Client>
+  + listClient(int, String): List<Double>
+}
+class StatisticsService {
+  + StatisticsService():
+  + produtorStatistics(int, String, int, int): List<Double>
+  + hubStatistics(int, String, int): List<Double>
+  + cabazStatistics(int): List<Double>
+  + saveStocks(): void
+  + clienteStatistics(int, String, int, int): List<Double>
+  + clienteStatistics(int, String): List<Double>
+  + produtorStatistics(int, String): List<Double>
+  + hubStatistics(int, String, int, int): List<Double>
+  + resetStocks(): void
+  + cabazStatistics(int, int, int): List<Double>
+   allClientsCabaz: List<Client>
+}
+class StatisticsUI {
+  + StatisticsUI():
+  + run(): void
+}
+class TopClosestEnterprisesController {
+  + TopClosestEnterprisesController():
+  + getTopNClosestEnterprises(int): List<EnterpriseAverageDistance>
+}
+class TopClosestEnterprisesService {
+  + TopClosestEnterprisesService():
+   enterprisesAverageDistance: List<EnterpriseAverageDistance>
+}
+class TopClosestEnterprisesUI {
+  + TopClosestEnterprisesUI():
+  + run(): void
+}
+class Utils {
+  + Utils():
+  + showList(List, String): void
+  + selectsIndex(List): int
+  + confirm(String): boolean
+  + readIntegerFromConsole(String): int
+  + readDateFromConsole(String): Date
+  + showAndSelectOne(List, String): Object
+  + showAndSelectIndex(List, String): int
+  + showListNoExit(List, String): void
+  + selectsObject(List): Object?
+  + readLineFromConsole(String): String?
+  + readDoubleFromConsole(String): double
+}
+
+App                             "1" *-[#595959,plain]-> "company\n1" Company
+App                              -[#595959,dashed]->  Company                         : "«create»"
+BasketLoader                    "1" *-[#595959,plain]-> "clientStore\n1" ClientStore
+BasketLoader                    "1" *-[#595959,plain]-> "company\n1" Company
+BasketLoader                    "1" *-[#595959,plain]-> "memberGraph\n1" MemberGraph
+BasketLoader                    "1" *-[#595959,plain]-> "producerStore\n1" ProducerStore
+BasketLoader                     -[#595959,dashed]->  ProductStock                    : "«create»"
+BasketLoader                    "1" *-[#595959,plain]-> "ps\n1" ProductStore
+Client                          "1" *-[#595959,plain]-> "clientType\n1" ClientType
+Client                           -[#000082,plain]-^  Member
+ClientStore                     "1" -[#595959,plain]-> "resetStockRequest\n" Client
+ClientStore                     "1" -[#595959,plain]-> "clientList\n" Member
+ClientStore                      -[#595959,dashed]->  ProductStock                    : "«create»"
+ClosestProducersToHubService    "1" *-[#595959,plain]-> "company\n1" Company
+CommonGraph                      -[#008200,dashed]-^  Graph
+Company                          -[#595959,dashed]->  ClientStore                     : "«create»"
+Company                         "1" *-[#595959,plain]-> "clientStore\n1" ClientStore
+Company                         "1" *-[#595959,plain]-> "irrigationSystem\n1" IrrigationSystem
+Company                         "1" *-[#595959,plain]-> "memberGraph\n1" MemberGraph
+Company                          -[#595959,dashed]->  MemberGraph                     : "«create»"
+Company                         "1" *-[#595959,plain]-> "producerStore\n1" ProducerStore
+Company                          -[#595959,dashed]->  ProducerStore                   : "«create»"
+Company                          -[#595959,dashed]->  ProductStore                    : "«create»"
+Company                         "1" *-[#595959,plain]-> "productStore\n1" ProductStore
+DistancesLoader                 "1" *-[#595959,plain]-> "company\n1" Company
+EnterpriseAverageDistance       "1" *-[#595959,plain]-> "client\n1" Client
+Expedition                      "1" *-[#595959,plain]-> "clientToSatisfy\n1" Client
+Expedition                      "1" -[#595959,plain]-> "productsToDeliver\n" ProductInfo
+ExpeditionListController        "1" *-[#595959,plain]-> "service\n1" ExpeditionListService
+ExpeditionListController         -[#595959,dashed]->  ExpeditionListService           : "«create»"
+ExpeditionListController        "1" *-[#595959,plain]-> "nearestHubController\n1" NearestHubController
+ExpeditionListController         -[#595959,dashed]->  NearestHubController            : "«create»"
+ExpeditionListController        "1" *-[#595959,plain]-> "topClosestEnterprisesController\n1" TopClosestEnterprisesController
+ExpeditionListController         -[#595959,dashed]->  TopClosestEnterprisesController : "«create»"
+ExpeditionListService           "1" *-[#595959,plain]-> "clientStore\n1" ClientStore
+ExpeditionListService            -[#595959,dashed]->  ClosestProducersToHubService    : "«create»"
+ExpeditionListService           "1" *-[#595959,plain]-> "closestProducersService\n1" ClosestProducersToHubService
+ExpeditionListService           "1" *-[#595959,plain]-> "company\n1" Company
+ExpeditionListService            -[#595959,dashed]->  Expedition                      : "«create»"
+ExpeditionListService           "1" *-[#595959,plain]-> "producerStore\n1" ProducerStore
+ExpeditionListService            -[#595959,dashed]->  ProductInfo                     : "«create»"
+ExpeditionListToNProducersUI    "1" *-[#595959,plain]-> "company\n1" Company
+ExpeditionListToNProducersUI     -[#595959,dashed]->  ExpeditionListController        : "«create»"
+ExpeditionListToNProducersUI    "1" *-[#595959,plain]-> "ctrl\n1" ExpeditionListController
+ExpeditionListToNProducersUI    "1" *-[#595959,plain]-> "loadCtrl\n1" LoadFileController
+ExpeditionListUI                "1" *-[#595959,plain]-> "company\n1" Company
+ExpeditionListUI                 -[#595959,dashed]->  ExpeditionListController        : "«create»"
+ExpeditionListUI                "1" *-[#595959,plain]-> "ctrl\n1" ExpeditionListController
+ExpeditionListUI                "1" *-[#595959,plain]-> "loadCtrl\n1" LoadFileController
+ExpeditionMinPathController      -[#595959,dashed]->  ExpeditionMinPathService        : "«create»"
+ExpeditionMinPathController     "1" *-[#595959,plain]-> "minPathService\n1" ExpeditionMinPathService
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "expCtrl\n1" ExpeditionListController
+ExpeditionMinPathService         -[#595959,dashed]->  ExpeditionListController        : "«create»"
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "memberGraph\n1" MemberGraph
+ExpeditionMinPathService         -[#595959,dashed]->  MinPathInfo                     : "«create»"
+ExpeditionMinPathService         -[#595959,dashed]->  NearestHubController            : "«create»"
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "nhCtrl\n1" NearestHubController
+ExpeditionMinPathService         -[#595959,dashed]->  NearestHubService               : "«create»"
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "nhService\n1" NearestHubService
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "ps\n1" ProducerStore
+ExpeditionMinPathService         -[#595959,dashed]->  SortByWeight                    : "«create»"
+ExpeditionMinPathService         -[#595959,dashed]->  TopClosestEnterprisesController : "«create»"
+ExpeditionMinPathService        "1" *-[#595959,plain]-> "tceCtrl\n1" TopClosestEnterprisesController
+ExpeditionMinPathUI             "1" *-[#595959,plain]-> "ctrl\n1" ExpeditionMinPathController
+ExpeditionMinPathUI              -[#595959,dashed]->  ExpeditionMinPathController     : "«create»"
+GraphConnectedController        "1" *-[#595959,plain]-> "graph\n1" MemberGraph
+GraphConnectedUI                "1" *-[#595959,plain]-> "ctrl\n1" GraphConnectedController
+GraphConnectedUI                 -[#595959,dashed]->  GraphConnectedController        : "«create»"
+GraphToJsonController           "1" *-[#595959,plain]-> "graph\n1" MemberGraph
+GraphToJsonUI                    -[#595959,dashed]->  GraphToJsonController           : "«create»"
+GraphToJsonUI                   "1" *-[#595959,plain]-> "ctrl\n1" GraphToJsonController
+HubAndDistanceToAClient         "1" *-[#595959,plain]-> "hub\n1" Client
+IrrigationPortion               "1" *-[#595959,plain]-> "regularity\n1" Regularity
+IrrigationSystem                "1" -[#595959,plain]-> "portions\n" IrrigationPortion
+IrrigationSystemControler       "1" *-[#595959,plain]-> "service\n1" IrrigationSystemService
+IrrigationSystemControler        -[#595959,dashed]->  IrrigationSystemService         : "«create»"
+IrrigationSystemLoader          "1" *-[#595959,plain]-> "company\n1" Company
+IrrigationSystemLoader           -[#595959,dashed]->  IrrigationPortion               : "«create»"
+IrrigationSystemLoader           -[#595959,dashed]->  IrrigationSystem                : "«create»"
+IrrigationSystemService         "1" *-[#595959,plain]-> "company\n1" Company
+IrrigationSystemService         "1" *-[#595959,plain]-> "system\n1" IrrigationSystem
+IrrigationSystemUI               -[#595959,dashed]->  IrrigationSystemControler       : "«create»"
+IrrigationSystemUI              "1" *-[#595959,plain]-> "ctrl\n1" IrrigationSystemControler
+LoadFileController               -[#595959,dashed]->  BasketLoader                    : "«create»"
+LoadFileController               -[#595959,dashed]->  DistancesLoader                 : "«create»"
+LoadFileController               -[#595959,dashed]->  LocIDFIleLoader                 : "«create»"
+LoadFileController              "1" *-[#595959,plain]-> "mg\n1" MemberGraph
+LoadFileUI                      "1" *-[#595959,plain]-> "ctrl\n1" LoadFileController
+LoadFileUI                       -[#595959,dashed]->  LoadFileController              : "«create»"
+LocIDFIleLoader                  -[#595959,dashed]->  Client                          : "«create»"
+LocIDFIleLoader                 "1" *-[#595959,plain]-> "comp\n1" Company
+LocIDFIleLoader                  -[#595959,dashed]->  Location                        : "«create»"
+LocIDFIleLoader                  -[#595959,dashed]->  Producer                        : "«create»"
+Main                             -[#595959,dashed]->  MainMenu                        : "«create»"
+MainMenu                         -[#595959,dashed]->  ExpeditionListToNProducersUI    : "«create»"
+MainMenu                         -[#595959,dashed]->  ExpeditionListUI                : "«create»"
+MainMenu                         -[#595959,dashed]->  ExpeditionMinPathUI             : "«create»"
+MainMenu                         -[#595959,dashed]->  GraphConnectedUI                : "«create»"
+MainMenu                         -[#595959,dashed]->  IrrigationSystemLoader          : "«create»"
+MainMenu                         -[#595959,dashed]->  IrrigationSystemUI              : "«create»"
+MainMenu                         -[#595959,dashed]->  LoadFileUI                      : "«create»"
+MainMenu                        "1" -[#595959,plain]-> "options\n" MenuOption
+MainMenu                         -[#595959,dashed]->  MenuOption                      : "«create»"
+MainMenu                         -[#595959,dashed]->  MinimumNetworkUI                : "«create»"
+MainMenu                         -[#595959,dashed]->  NearestHubUI                    : "«create»"
+MainMenu                         -[#595959,dashed]->  OptionsUI                       : "«create»"
+MainMenu                         -[#595959,dashed]->  StatisticsUI                    : "«create»"
+MainMenu                         -[#595959,dashed]->  TopClosestEnterprisesUI         : "«create»"
+MapGraph                         -[#000082,plain]-^  CommonGraph
+MapGraph                         -[#595959,dashed]->  Edge                            : "«create»"
+MapGraph                        "1" -[#595959,plain]-> "mapVertices\n" MapVertex
+MapGraph                         -[#595959,dashed]->  MapVertex                       : "«create»"
+MapVertex                       "1" -[#595959,plain]-> "outVerts\n" Edge
+Member                          "1" *-[#595959,plain]-> "location\n1" Location
+Member                           -[#595959,dashed]->  ProductStock                    : "«create»"
+MemberGraph                     "1" *-[#595959,plain]-> "membersLocationGraph\n1" MapGraph
+MemberGraph                      -[#595959,dashed]->  MapGraph                        : "«create»"
+MinPathInfo                     "1" -[#595959,plain]-> "infoHubs\n" Client
+MinPathInfo                     "1" -[#595959,plain]-> "path\n" Member
+MinimumNetworkController         -[#595959,dashed]->  MapGraph                        : "«create»"
+MinimumNetworkController         -[#595959,dashed]->  MinimumNetworkService           : "«create»"
+MinimumNetworkController        "1" *-[#595959,plain]-> "service\n1" MinimumNetworkService
+MinimumNetworkService           "1" *-[#595959,plain]-> "company\n1" Company
+MinimumNetworkService            -[#595959,dashed]->  Edge                            : "«create»"
+MinimumNetworkService            -[#595959,dashed]->  SortByWeight                    : "«create»"
+MinimumNetworkUI                "1" *-[#595959,plain]-> "ctrl\n1" MinimumNetworkController
+MinimumNetworkUI                 -[#595959,dashed]->  MinimumNetworkController        : "«create»"
+NearestHubController            "1" *-[#595959,plain]-> "service\n1" NearestHubService
+NearestHubController             -[#595959,dashed]->  NearestHubService               : "«create»"
+NearestHubService               "1" *-[#595959,plain]-> "company\n1" Company
+NearestHubService                -[#595959,dashed]->  HubAndDistanceToAClient         : "«create»"
+NearestHubUI                    "1" *-[#595959,plain]-> "ctrl\n1" NearestHubController
+NearestHubUI                     -[#595959,dashed]->  NearestHubController            : "«create»"
+NearestHubUI                     -[#595959,dashed]->  TopClosestEnterprisesController : "«create»"
+NearestHubUI                    "1" *-[#595959,plain]-> "topCtrl\n1" TopClosestEnterprisesController
+OptionsUI                        -[#595959,dashed]->  GraphToJsonUI                   : "«create»"
+OptionsUI                        -[#595959,dashed]->  MenuOption                      : "«create»"
+OptionsUI                       "1" -[#595959,plain]-> "option\n" MenuOption
+Producer                         -[#000082,plain]-^  Member
+Producer                         -[#595959,dashed]->  ProductStock                    : "«create»"
+ProducerStore                   "1" -[#595959,plain]-> "producerList\n" Member
+ProducerStore                   "1" -[#595959,plain]-> "resetProducerStock\n" Producer
+ProducerStore                    -[#595959,dashed]->  ProductStock                    : "«create»"
+ProductStock                    "1" *-[#595959,plain]-> "product\n1" Product
+ProductStore                     -[#595959,dashed]->  Product                         : "«create»"
+ProductStore                    "1" -[#595959,plain]-> "hm\n" Product
+StatisticsController            "1" *-[#595959,plain]-> "comp\n1" Company
+StatisticsController             -[#595959,dashed]->  ExpeditionListController        : "«create»"
+StatisticsController            "1" *-[#595959,plain]-> "ctrl\n1" ExpeditionListController
+StatisticsController            "1" *-[#595959,plain]-> "expService\n1" ExpeditionListService
+StatisticsController             -[#595959,dashed]->  ExpeditionListService           : "«create»"
+StatisticsController            "1" *-[#595959,plain]-> "service\n1" StatisticsService
+StatisticsController             -[#595959,dashed]->  StatisticsService               : "«create»"
+StatisticsService               "1" -[#595959,plain]-> "allClientsCabaz\n" Client
+StatisticsService               "1" *-[#595959,plain]-> "clientStore\n1" ClientStore
+StatisticsService               "1" *-[#595959,plain]-> "comp\n1" Company
+StatisticsService               "1" -[#595959,plain]-> "expList\n" Expedition
+StatisticsService                -[#595959,dashed]->  ExpeditionListService           : "«create»"
+StatisticsService               "1" *-[#595959,plain]-> "service\n1" ExpeditionListService
+StatisticsService               "1" *-[#595959,plain]-> "nearestHubService\n1" NearestHubService
+StatisticsService                -[#595959,dashed]->  NearestHubService               : "«create»"
+StatisticsService               "1" *-[#595959,plain]-> "producerStore\n1" ProducerStore
+StatisticsService               "1" *-[#595959,plain]-> "topClosestEnterprisesCtrl\n1" TopClosestEnterprisesController
+StatisticsService                -[#595959,dashed]->  TopClosestEnterprisesController : "«create»"
+StatisticsUI                    "1" *-[#595959,plain]-> "company\n1" Company
+StatisticsUI                     -[#595959,dashed]->  StatisticsController            : "«create»"
+StatisticsUI                    "1" *-[#595959,plain]-> "ctrl\n1" StatisticsController
+TopClosestEnterprisesController  -[#595959,dashed]->  TopClosestEnterprisesService    : "«create»"
+TopClosestEnterprisesController "1" *-[#595959,plain]-> "service\n1" TopClosestEnterprisesService
+TopClosestEnterprisesService    "1" -[#595959,plain]-> "enterpriseList\n" Client
+TopClosestEnterprisesService    "1" *-[#595959,plain]-> "company\n1" Company
+TopClosestEnterprisesService     -[#595959,dashed]->  EnterpriseAverageDistance       : "«create»"
+TopClosestEnterprisesService    "1" -[#595959,plain]-> "members\n" Member
+TopClosestEnterprisesUI          -[#595959,dashed]->  TopClosestEnterprisesController : "«create»"
+TopClosestEnterprisesUI         "1" *-[#595959,plain]-> "ctrl\n1" TopClosestEnterprisesController
+@enduml

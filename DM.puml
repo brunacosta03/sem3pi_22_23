@@ -1,0 +1,470 @@
+@startuml Domain Model
+
+skinparam style strictuml
+skinparam DefaultFontStyle bold
+skinparam ArrowColor #gray
+hide empty members
+
+left to right direction
+
+
+' BDDAD - Base de dados
+class GestorAgricola
+
+class SistemaRega {
+    -tipoDistribuição
+    -tipoRega
+    -idGestorAgricola
+}
+
+class Controlador
+
+class PlanoRega {
+    -parcelasRega
+    -tempoRega
+    -periocidade
+}
+
+class Cultura {
+    -tipoCultura
+    -designação
+}
+
+class Safra {
+    -periocidade
+    -areaSafra
+    -quantidade
+    -lucro
+}
+
+class Setor {
+    -designação
+    -area
+}
+
+class OperacoesAgricolas {
+    -tipoOperacao
+    -dataAgendada
+    -dataRealizacao
+    -estadoOperacao
+}
+
+class RegistoOperacoesAgricolas {
+    -utilizador
+    -dataHora
+    -tipoAlteracao
+}
+
+class FatorProdução {
+    -classificaçãoFator
+    -nomeComercial
+    -formulacao
+    -fornecedor
+}
+
+class FichaTécnica {
+    -categoria
+}
+
+class Restricoes {
+    -dataInicioRestricao
+    -dataFimRestricao
+}
+
+class Elemento {
+    -substancia
+    -quantidade
+    -unidade
+}
+
+class AplicaçõesRealizar {
+    -quantidade
+    -dataPrevista
+}
+
+class PlanoAnual {
+    -correçõesMinerais
+    -fertilização
+    -necessidadeRega
+    -realizadoVia
+    -ano
+}
+
+class Incidente {
+    -valorDivida
+    -dataSanado
+    -dataOcorrencia
+}
+
+class EncomendasAnuais {
+    -numeroEncomendas
+    -valorTotalEncomendas
+}
+
+class Cliente {
+    -nivel
+    -plafond
+}
+
+class Morada {
+    -endereco
+    -codigoPostal
+}
+
+class Pessoa {
+    -nome
+    -nif
+    -email
+}
+
+class Encomenda {
+    -dataPedido
+    -dataVencimento
+    -dataPagamento
+    -dataEntrega
+    -estadoPedido
+    -valorTotal
+}
+
+class ProdutoAgricola {
+    -designação
+}
+
+class Condutor
+
+class Hub {
+    -codigoHub
+    -latitude
+    -longitude
+    -codigoEP
+}
+
+class Input_Hub {
+    -input_string
+}
+
+class CadernoCampo
+
+class EstaçãoMeteorológica {
+    -nomeEstacaoMeteorologica
+}
+
+class Registo {
+    -data
+    -parcela
+    -quantidade
+}
+
+class ResumoMeteorológico {
+    -resumoSensores
+    -resumoSolo
+    -dataResumo
+}
+
+class RegistoFertelização {
+    -tipoFertelização
+}
+
+class RegistoRega {
+    -descricao
+}
+
+class RegistoColheita {
+    -produtoColheita
+}
+
+class Medicoes {
+    -valorLido
+    -instanteLeitura
+}
+
+class Sensor {
+    -tipoSensor
+    -valorReferencia
+}
+
+class ProcessoLeitura {
+    -dataHora
+    -numRegistosLidos
+    -numRegistoInseridos
+    -numErros
+}
+
+
+GestorAgricola "1" -- "*" SistemaRega : gere >
+GestorAgricola "1" -- "*" Setor : gere >
+
+SistemaRega "1" -- "1" Controlador : contém >
+Controlador "1" -- "1" PlanoRega : define >
+PlanoRega "*" -- "*" Cultura : acontecem >
+
+Cultura "1" -- "*" Safra : acontece >
+Cultura "1" -- "*" AplicaçõesRealizar : realizam -se >
+AplicaçõesRealizar "*" -- "1" PlanoAnual : leva a realizar >
+Cultura "*" -- "*" ProdutoAgricola : gera >
+
+Setor "1" -- "*" Cultura : tem >
+Setor "1" -- "*" OperacoesAgricolas : ocorrem >
+Setor "1" -- "*" Restricoes : tem >
+
+OperacoesAgricolas "*" -- "*" FatorProdução : aplicam >
+OperacoesAgricolas "1" -- "1" RegistoOperacoesAgricolas : é ativado > 
+
+FatorProdução "1" -- "*" Restricoes : são aplicadas <
+FatorProdução "1" -- "1" FichaTécnica : contém >
+
+FichaTécnica "*" -- "*" Elemento : composto por >
+
+GestorAgricola "*" -- "*" Cliente : gere >
+
+Cliente "1" -- "*" Incidente : têm >
+Cliente "1" -- "1" EncomendasAnuais : têm >
+Cliente "1" -- "1" Morada : têm > 
+Cliente --|> Pessoa
+Cliente "*" -- "1" Hub : têm por defeito > 
+Cliente "1" -- "*" Encomenda : faz >
+
+Morada "1" -- "*" Encomenda : recebe >
+
+Encomenda "*" -- "*" ProdutoAgricola : contém >
+
+GestorAgricola --|> Pessoa
+Pessoa <|-- Condutor
+Condutor "*" -- "*" Hub : transporta para o >
+Condutor "*" -- "*" ProdutoAgricola : transporta >
+
+Hub "1" -- "*" Encomenda : contém >
+Hub "1" -- "1" Input_Hub : baseia-se >
+
+GestorAgricola "1" -- "1" CadernoCampo : regista no >
+
+CadernoCampo "1" -- "*" ResumoMeteorológico : contém >
+CadernoCampo "1" -- "*" Registo : contém >
+
+ResumoMeteorológico "*" -- "1" EstaçãoMeteorológica : contém >
+ResumoMeteorológico "*" -- "*" Medicoes : é feito através >
+Medicoes "*" -- "1" Sensor : são feitas pelo >
+Sensor "*" -- "*" ProcessoLeitura : executa >
+
+Registo <|-- RegistoFertelização
+Registo <|-- RegistoRega
+Registo <|-- RegistoColheita
+
+
+' ARQCP - Arquitetura de Computadores
+class Sensor {
+    -idSensor
+    -limiteMáximo
+    -limiteMínimo
+    -numeroLeituras
+}
+
+class GeradorValores {
+    -state
+    -inc
+}
+
+class MatrizDiáriaResumo {
+    -valorMáximo
+    -valorMínimo
+    -média
+}
+
+class SensorTemperatura
+class SensorVelocidadeVento
+class SensorDirecaoVento
+class SensorHumidadeAtmosferica
+class SensorHumidadeSolo
+class SensorPluvio
+
+class ValoresErrados
+
+class ReiniciarGeradorValores
+
+class FrequenciaLeitura
+
+class FicheiroConfiguracao
+
+class ExportarCSV
+
+
+SensorPluvio "1" -- "1" SensorTemperatura : é influenciado >
+SensorHumidadeAtmosferica "1" -- "1" SensorPluvio : é influenciado >
+SensorHumidadeSolo "1" -- "1" SensorPluvio : é influenciado >
+
+Sensor <|-- SensorTemperatura
+Sensor <|-- SensorVelocidadeVento
+Sensor <|-- SensorDirecaoVento
+Sensor <|-- SensorHumidadeAtmosferica
+Sensor <|-- SensorHumidadeSolo
+Sensor <|-- SensorPluvio
+
+Sensor "1" -- "1" GeradorValores : utiliza >
+Medicoes "*" -- "1" MatrizDiáriaResumo : origina >
+
+GeradorValores "1" -- "*" ValoresErrados : contém >
+ValoresErrados "*" -- "1" ReiniciarGeradorValores : fazem >
+
+Sensor "1" -- "1" FrequenciaLeitura : têm >
+FrequenciaLeitura "1" -- "1" FicheiroConfiguracao : é obtida através >
+
+ExportarCSV "1" -- "1" MatrizDiáriaResumo : é possível <
+ExportarCSV "1" -- "*" Sensor : é possível <
+
+
+' ESINF - Estruturas de Informação
+class Produtor
+
+class Stock
+
+class Particular
+
+class Empresa
+
+class FicheiroRega {
+    -parcela
+    -duração
+    -regularidade
+}
+
+class Cliente{
+    -locId
+    -lat
+    -lng
+    -codigo
+}
+
+class ListaExpedição
+
+class Estatisticas{
+    -porCabaz
+    -porCliente
+    -porProdutor
+    -porHub
+}
+
+Produtor "1" -- "1" Stock : têm >
+Stock "1" -- "*" ProdutoAgricola : é de >
+Produtor "1" -- "*" ProdutoAgricola : disponibiliza para venda >
+
+Cliente <|-- Particular
+Cliente <|-- Empresa
+Hub <|-- Empresa
+Pessoa <|-- Produtor
+
+Controlador "*"-- "1" FicheiroRega : obtem os dados >
+
+ListaExpedição "1" -- "*" Encomenda : é formada por >
+
+ListaExpedição "1" -- "1" Estatisticas : gera >
+
+' FSIAP - Fisica Aplicada
+class ArmazemAgricola {
+    -dimensoes
+}
+
+class Zona {
+    -dimensoes
+    -temperaturaAmbiente
+}
+
+class Material {
+    -descricao
+    -condutividadeTermica
+    -espessura
+    -caracteristicasTermicas
+}
+
+class Estrutura {
+    -dimensoes
+}
+
+class Porta {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Janela {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Parede {
+    -dimensoes
+    -resistenciaTermica
+}
+
+
+class Telhado {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Energia {
+    -quantidade
+}
+
+class Aquecedor
+
+class ArCondicionado
+
+class ControladorTemperatura {
+    -quantidadeCalor
+}
+
+class Exterior {
+    -temperatura
+}
+
+class ParedeInterior
+class ParedeExterior
+
+class ZonaA
+class ZonaB
+class ZonaC
+class ZonaD
+class ZonaE
+
+class Potencia {
+    -tempo
+}
+
+GestorAgricola "1" -- "*" ArmazemAgricola : tem >
+ArmazemAgricola "1" -- "*" Zona : é composto de >
+
+Zona <|-- ZonaA
+Zona <|-- ZonaB
+Zona <|-- ZonaC
+Zona <|-- ZonaD
+Zona <|-- ZonaE
+
+ArmazemAgricola "1" -- "1" Estrutura : tem >
+Estrutura "1" -- "*" Porta : tem >
+Estrutura "1" -- "*" Janela : tem >
+Estrutura "1" -- "*" Parede : tem >
+Estrutura "1" -- "1" Telhado : tem >
+Estrutura "1" -- "1" Energia : precisa de >
+
+Porta "*" -- "*" Material : é feita de >
+Janela "*" -- "*" Material : é feita de >
+Parede "*" -- "*" Material : é feita de >
+Telhado "*" -- "*" Material : é feita de >
+
+Zona "1" -- "1" Energia : precisa de >
+
+ControladorTemperatura <|-- Aquecedor
+ControladorTemperatura <|-- ArCondicionado
+
+Zona "1" -- "1" ControladorTemperatura : contém >
+
+Estrutura "1" -- Exterior : está em contacto >
+Zona "*" -- Exterior : está em contacto >
+
+Parede <|-- ParedeInterior
+Parede <|-- ParedeExterior
+
+Energia <|-- Potencia
+
+ArmazemAgricola "1" -- "*" ProdutoAgricola : guarda >
+
+@enduml

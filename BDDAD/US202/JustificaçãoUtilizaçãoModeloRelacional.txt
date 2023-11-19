@@ -1,0 +1,21 @@
+Foi escolhido o modelo relacional de todos os modelos existentes em Bases de Dados pois, segundo pesquisa, a mesma tecnologia é a que mais vai de acordo com as regras do ACID.
+
+1- Atomicidade
+
+Esta regra define que uma transação ou é totalmente feita ou não é feita de todo.
+Em maior parte das bases de dados sql(modelo relacional) isto assegura-se, pois ou a transação acontece, ou é travada por uma "constraint" e nada é inserido/alterado/mostrado pela base de dados.
+
+2- Consistência
+
+Com consistência o que se quer na nossa base de dados é que a operação seja validada e impedida no caso de ela ser inválida,
+No caso da tecnologia sql, as constraints definidas rigorosamente tratam de negar uma operação, por exemplo o insert de uma pessoa com um email inválido pode ser impedido por uma constraint check(usando RegEx até).
+
+3- Isolamento
+
+A tecnologia sql é bastante isolada, pois uma transação não influencia o estado da outra.
+Suponhamos que duas pessoas querem fazer a compra de um produto que só tem 1 em stock. A pessoa que fizer a primeira transação ficará com a compra, a outra não, logo não comprando ambas o mesmo produto causando problemas.
+
+4- Durabilidade
+
+Com durabilidade, a regra define que uma base de dados deve conseguir facilmente preservar os seus dados, ou seja, persisti-los.
+Com a tecnologia utilizada, podemos garantir tal coisa, pois as tabelas estão sempre bem definidas e o negócio é conciso, ou seja, os dados nas tabelas não são abstratos persistindo-se mais facilmente.

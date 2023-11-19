@@ -1,0 +1,63 @@
+.VisGraphVisualizer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+
+    padding: 15px;
+
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.VisGraphVisualizer > div {
+    border: 1px solid #ccc;
+    background-color: rgb(54, 54, 54);
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+
+.dataInput {
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    gap: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.dataInput>div {
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+}
+.dataTextArea{
+    resize: none;
+    overflow-x: auto;
+    overflow-y: scroll;
+    height: 100%;
+    font-size: 18px;
+    font-family: "Consolas";
+}
+
+.dataTextArea::-webkit-scrollbar-button{
+    color: blue
+}
+
+.LoadButton {
+    height: 65px;
+    width: 200px;
+    font-size: 20px;
+    transition: background-color 0.2s;
+}
+.LoadButton:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 0;
+}
+.LoadButton:active {
+    background-color: rgb(40, 40, 40);
+}

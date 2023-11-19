@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="3378px" preserveAspectRatio="none" style="width:2400px;height:3378px;background:#FFFFFF;" version="1.1" viewBox="0 0 2400 3378" width="2400px" zoomAndPan="magnify"><defs/><g><!--MD5=[333f4b6b755a2bdb2743d2da60adb6f1]
+class GestorAgricola--><g id="elem_GestorAgricola"><rect codeLine="11" fill="#F1F1F1" height="27.6094" id="GestorAgricola" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="7" y="1240"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="10" y="1259.5332">GestorAgricola</text></g><!--MD5=[1d5717d3fe0b057c2c774b03aa8c2b48]
+class SistemaRega--><g id="elem_SistemaRega"><rect codeLine="13" fill="#F1F1F1" height="88.4375" id="SistemaRega" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="239" y="277"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="262.5" y="296.5332">SistemaRega</text><line style="stroke:#181818;stroke-width:0.5;" x1="240" x2="369" y1="304.6094" y2="304.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247" y="315.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="259" y="323.1426">tipoDistribuição</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247" y="333.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="259" y="340.752">tipoRega</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247" y="351.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="259" y="358.3613">idGestorAgricola</text></g><!--MD5=[823809bbc7993443cc5325b8490a55cc]
+class Controlador--><g id="elem_Controlador"><rect codeLine="19" fill="#F1F1F1" height="27.6094" id="Controlador" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="576" y="170"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="579" y="189.5332">Controlador</text></g><!--MD5=[c295a19f0319df00c66c3f8a188f85e0]
+class PlanoRega--><g id="elem_PlanoRega"><rect codeLine="21" fill="#F1F1F1" height="88.4375" id="PlanoRega" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="921.5" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="943.5" y="36.5332">PlanoRega</text><line style="stroke:#181818;stroke-width:0.5;" x1="922.5" x2="1034.5" y1="44.6094" y2="44.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="929.5" y="55.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="941.5" y="63.1426">parcelasRega</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="929.5" y="73.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="941.5" y="80.752">tempoRega</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="929.5" y="91.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="941.5" y="98.3613">periocidade</text></g><!--MD5=[922ebc82c4f82d29e15ceca2a3bf914c]
+class Cultura--><g id="elem_Cultura"><rect codeLine="27" fill="#F1F1F1" height="70.8281" id="Cultura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="1290" y="157.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1316.5" y="177.0332">Cultura</text><line style="stroke:#181818;stroke-width:0.5;" x1="1291" x2="1388" y1="185.1094" y2="185.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1298" y="196.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1310" y="203.6426">tipoCultura</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1298" y="214.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1310" y="221.252">designação</text></g><!--MD5=[81991352be3db5cda8d47df3cf66a408]
+class Safra--><g id="elem_Safra"><rect codeLine="32" fill="#F1F1F1" height="106.0469" id="Safra" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1625" y="140"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1658" y="159.5332">Safra</text><line style="stroke:#181818;stroke-width:0.5;" x1="1626" x2="1724" y1="167.6094" y2="167.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1633" y="178.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1645" y="186.1426">periocidade</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1633" y="196.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1645" y="203.752">areaSafra</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1633" y="214.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1645" y="221.3613">quantidade</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1633" y="231.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="1645" y="238.9707">lucro</text></g><!--MD5=[e1528ffe69ed87ae28c3b700dd5aba4b]
+class Setor--><g id="elem_Setor"><rect codeLine="39" fill="#F1F1F1" height="70.8281" id="Setor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="255" y="539.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="287.5" y="559.0332">Setor</text><line style="stroke:#181818;stroke-width:0.5;" x1="256" x2="353" y1="567.1094" y2="567.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="263" y="578.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="275" y="585.6426">designação</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="263" y="596.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="275" y="603.252">area</text></g><!--MD5=[39863c32024479e03ef9e149306398dc]
+class OperacoesAgricolas--><g id="elem_OperacoesAgricolas"><rect codeLine="44" fill="#F1F1F1" height="106.0469" id="OperacoesAgricolas" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="549.5" y="457"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="552.5" y="476.5332">OperacoesAgricolas</text><line style="stroke:#181818;stroke-width:0.5;" x1="550.5" x2="682.5" y1="484.6094" y2="484.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="557.5" y="495.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="569.5" y="503.1426">tipoOperacao</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="557.5" y="513.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="569.5" y="520.752">dataAgendada</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="557.5" y="531.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="569.5" y="538.3613">dataRealizacao</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="557.5" y="548.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="569.5" y="555.9707">estadoOperacao</text></g><!--MD5=[0800dbfd8248a2e388ee06296e1aaf26]
+class RegistoOperacoesAgricolas--><g id="elem_RegistoOperacoesAgricolas"><rect codeLine="51" fill="#F1F1F1" height="88.4375" id="RegistoOperacoesAgricolas" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="887.5" y="475"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="890.5" y="494.5332">RegistoOperacoesAgricolas</text><line style="stroke:#181818;stroke-width:0.5;" x1="888.5" x2="1068.5" y1="502.6094" y2="502.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="895.5" y="513.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="907.5" y="521.1426">utilizador</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="895.5" y="531.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="907.5" y="538.752">dataHora</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="895.5" y="549.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="907.5" y="556.3613">tipoAlteracao</text></g><!--MD5=[85c24207bacce841554b0fd19d29d9cb]
+class FatorProdução--><g id="elem_FatorProdução"><rect codeLine="57" fill="#F1F1F1" height="106.0469" id="FatorProdução" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="908.5" y="334"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="931" y="353.5332">FatorProdução</text><line style="stroke:#181818;stroke-width:0.5;" x1="909.5" x2="1047.5" y1="361.6094" y2="361.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916.5" y="372.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="928.5" y="380.1426">classificaçãoFator</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916.5" y="390.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="928.5" y="397.752">nomeComercial</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916.5" y="408.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="928.5" y="415.3613">formulacao</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916.5" y="425.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="928.5" y="432.9707">fornecedor</text></g><!--MD5=[1ce636fa0bd5d81256515e64d3c03747]
+class FichaTécnica--><g id="elem_FichaTécnica"><rect codeLine="64" fill="#F1F1F1" height="53.2188" id="FichaTécnica" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91" x="1294" y="373.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1297" y="393.0332">FichaTécnica</text><line style="stroke:#181818;stroke-width:0.5;" x1="1295" x2="1384" y1="401.1094" y2="401.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1302" y="412.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1314" y="419.6426">categoria</text></g><!--MD5=[f1fc9f3e54af65ae32c48309a88ee6f4]
+class Restricoes--><g id="elem_Restricoes"><rect codeLine="68" fill="#F1F1F1" height="70.8281" id="Restricoes" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="146" x="1266.5" y="461.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1306" y="481.0332">Restricoes</text><line style="stroke:#181818;stroke-width:0.5;" x1="1267.5" x2="1411.5" y1="489.1094" y2="489.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1274.5" y="500.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1286.5" y="507.6426">dataInicioRestricao</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1274.5" y="518.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1286.5" y="525.252">dataFimRestricao</text></g><!--MD5=[6d3950f02135f600bc78651f38d40f36]
+class Elemento--><g id="elem_Elemento"><rect codeLine="73" fill="#F1F1F1" height="88.4375" id="Elemento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="1626.5" y="369"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1645.5" y="388.5332">Elemento</text><line style="stroke:#181818;stroke-width:0.5;" x1="1627.5" x2="1722.5" y1="396.6094" y2="396.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1634.5" y="407.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1646.5" y="415.1426">substancia</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1634.5" y="425.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1646.5" y="432.752">quantidade</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1634.5" y="443.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1646.5" y="450.3613">unidade</text></g><!--MD5=[2bf2751325785efb5714d73e1f0043e1]
+class AplicaçõesRealizar--><g id="elem_AplicaçõesRealizar"><rect codeLine="79" fill="#F1F1F1" height="70.8281" id="AplicaçõesRealizar" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="1612.5" y="33.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1615.5" y="53.0332">AplicaçõesRealizar</text><line style="stroke:#181818;stroke-width:0.5;" x1="1613.5" x2="1736.5" y1="61.1094" y2="61.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1620.5" y="72.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1632.5" y="79.6426">quantidade</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1620.5" y="90.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1632.5" y="97.252">dataPrevista</text></g><!--MD5=[4f7ab5281642ae20df1bc737c243317c]
+class PlanoAnual--><g id="elem_PlanoAnual"><rect codeLine="84" fill="#F1F1F1" height="123.6563" id="PlanoAnual" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="1935" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1970" y="26.5332">PlanoAnual</text><line style="stroke:#181818;stroke-width:0.5;" x1="1936" x2="2076" y1="34.6094" y2="34.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1943" y="45.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1955" y="53.1426">correçõesMinerais</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1943" y="63.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1955" y="70.752">fertilização</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1943" y="81.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1955" y="88.3613">necessidadeRega</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1943" y="98.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1955" y="105.9707">realizadoVia</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1943" y="116.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="1955" y="123.5801">ano</text></g><!--MD5=[3bd666c9cb1aff75454ab55e64570806]
+class Incidente--><g id="elem_Incidente"><rect codeLine="92" fill="#F1F1F1" height="88.4375" id="Incidente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="554.5" y="874"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="588" y="893.5332">Incidente</text><line style="stroke:#181818;stroke-width:0.5;" x1="555.5" x2="677.5" y1="901.6094" y2="901.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="562.5" y="912.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="574.5" y="920.1426">valorDivida</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="562.5" y="930.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="574.5" y="937.752">dataSanado</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="562.5" y="948.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="574.5" y="955.3613">dataOcorrencia</text></g><!--MD5=[1e0e3ef46aa2ca9ad1143044d0c2c075]
+class EncomendasAnuais--><g id="elem_EncomendasAnuais"><rect codeLine="98" fill="#F1F1F1" height="70.8281" id="EncomendasAnuais" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171" x="531" y="997.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="554" y="1017.0332">EncomendasAnuais</text><line style="stroke:#181818;stroke-width:0.5;" x1="532" x2="701" y1="1025.1094" y2="1025.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="539" y="1036.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="551" y="1043.6426">numeroEncomendas</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="539" y="1054.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="551" y="1061.252">valorTotalEncomendas</text></g><!--MD5=[20a748d5ee336a9a91751b0a3d4f0beb]
+class Cliente--><g id="elem_Cliente"><rect codeLine="329" fill="#F1F1F1" height="141.2656" id="Cliente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="268" y="962.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="282.5" y="982.0332">Cliente</text><line style="stroke:#181818;stroke-width:0.5;" x1="269" x2="340" y1="990.1094" y2="990.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1001.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="288" y="1008.6426">nivel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1019.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="288" y="1026.252">plafond</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1036.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="288" y="1043.8613">locId</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1054.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="288" y="1061.4707">lat</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1071.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="288" y="1079.0801">lng</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="276" y="1089.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="288" y="1096.6895">codigo</text></g><!--MD5=[77c6229b59f71ada4b7bed0495e5baba]
+class Morada--><g id="elem_Morada"><rect codeLine="108" fill="#F1F1F1" height="70.8281" id="Morada" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="736.5" y="731.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="766" y="751.0332">Morada</text><line style="stroke:#181818;stroke-width:0.5;" x1="737.5" x2="842.5" y1="759.1094" y2="759.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="744.5" y="770.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="756.5" y="777.6426">endereco</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="744.5" y="788.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="756.5" y="795.252">codigoPostal</text></g><!--MD5=[ec4e9ac521a71f7b069122f6baf1b57e]
+class Pessoa--><g id="elem_Pessoa"><rect codeLine="113" fill="#F1F1F1" height="88.4375" id="Pessoa" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="586" y="1246"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="593" y="1265.5332">Pessoa</text><line style="stroke:#181818;stroke-width:0.5;" x1="587" x2="646" y1="1273.6094" y2="1273.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="594" y="1284.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="606" y="1292.1426">nome</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="594" y="1302.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="606" y="1309.752">nif</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="594" y="1320.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="606" y="1327.3613">email</text></g><!--MD5=[c55f92ccbf0646788158d42f3399cc78]
+class Encomenda--><g id="elem_Encomenda"><rect codeLine="119" fill="#F1F1F1" height="141.2656" id="Encomenda" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="1611" y="704.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1637.5" y="724.0332">Encomenda</text><line style="stroke:#181818;stroke-width:0.5;" x1="1612" x2="1738" y1="732.1094" y2="732.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="743.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1631" y="750.6426">dataPedido</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="761.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1631" y="768.252">dataVencimento</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="778.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1631" y="785.8613">dataPagamento</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="796.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1631" y="803.4707">dataEntrega</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="813.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1631" y="821.0801">estadoPedido</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1619" y="831.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1631" y="838.6895">valorTotal</text></g><!--MD5=[f41a4baf908be2abb142b827fe1f45c4]
+class ProdutoAgricola--><g id="elem_ProdutoAgricola"><rect codeLine="128" fill="#F1F1F1" height="53.2188" id="ProdutoAgricola" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="1952.5" y="1215.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1955.5" y="1235.0332">ProdutoAgricola</text><line style="stroke:#181818;stroke-width:0.5;" x1="1953.5" x2="2058.5" y1="1243.1094" y2="1243.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1960.5" y="1254.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1972.5" y="1261.6426">designação</text></g><!--MD5=[b9e33bf6a102afe36c246c0285703021]
+class Condutor--><g id="elem_Condutor"><rect codeLine="132" fill="#F1F1F1" height="27.6094" id="Condutor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="946" y="1255"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="949" y="1274.5332">Condutor</text></g><!--MD5=[70a93e40820e09fe6c82aea962bef208]
+class Hub--><g id="elem_Hub"><rect codeLine="134" fill="#F1F1F1" height="106.0469" id="Hub" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="1293" y="1012"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="1327" y="1031.5332">Hub</text><line style="stroke:#181818;stroke-width:0.5;" x1="1294" x2="1385" y1="1039.6094" y2="1039.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301" y="1050.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1313" y="1058.1426">codigoHub</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301" y="1068.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1313" y="1075.752">latitude</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301" y="1086.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1313" y="1093.3613">longitude</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1301" y="1103.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1313" y="1110.9707">codigoEP</text></g><!--MD5=[a8b5c54162f16fc37b1e7d8038ab888e]
+class Input_Hub--><g id="elem_Input_Hub"><rect codeLine="141" fill="#F1F1F1" height="53.2188" id="Input_Hub" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1625" y="1038.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1643" y="1058.0332">Input_Hub</text><line style="stroke:#181818;stroke-width:0.5;" x1="1626" x2="1724" y1="1066.1094" y2="1066.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1633" y="1077.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1645" y="1084.6426">input_string</text></g><!--MD5=[0887b0f8cf5bb79e9891fd5a3d59a59f]
+class CadernoCampo--><g id="elem_CadernoCampo"><rect codeLine="145" fill="#F1F1F1" height="27.6094" id="CadernoCampo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="251.5" y="2595"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="254.5" y="2614.5332">CadernoCampo</text></g><!--MD5=[c8db94ba051978d09f2bd0904743092f]
+class EstaçãoMeteorológica--><g id="elem_EstaçãoMeteorológica"><rect codeLine="147" fill="#F1F1F1" height="53.2188" id="EstaçãoMeteorológica" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="878" y="2758.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="908.5" y="2778.0332">EstaçãoMeteorológica</text><line style="stroke:#181818;stroke-width:0.5;" x1="879" x2="1078" y1="2786.1094" y2="2786.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="886" y="2797.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="898" y="2804.6426">nomeEstacaoMeteorologica</text></g><!--MD5=[92b7b3362f9ea9f78a27209cabaef52c]
+class Registo--><g id="elem_Registo"><rect codeLine="151" fill="#F1F1F1" height="88.4375" id="Registo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="568" y="2565"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="592.5" y="2584.5332">Registo</text><line style="stroke:#181818;stroke-width:0.5;" x1="569" x2="664" y1="2592.6094" y2="2592.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="576" y="2603.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="588" y="2611.1426">data</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="576" y="2621.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="588" y="2628.752">parcela</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="576" y="2639.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="588" y="2646.3613">quantidade</text></g><!--MD5=[e60b457f3d3bb06ba6149d45ebf5d3e5]
+class ResumoMeteorológico--><g id="elem_ResumoMeteorológico"><rect codeLine="157" fill="#F1F1F1" height="88.4375" id="ResumoMeteorológico" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="543" y="2741"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="546" y="2760.5332">ResumoMeteorológico</text><line style="stroke:#181818;stroke-width:0.5;" x1="544" x2="689" y1="2768.6094" y2="2768.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="551" y="2779.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="563" y="2787.1426">resumoSensores</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="551" y="2797.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="563" y="2804.752">resumoSolo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="551" y="2815.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="563" y="2822.3613">dataResumo</text></g><!--MD5=[cd34bf75c57d2b7658c3e113ef47fef9]
+class RegistoFertelização--><g id="elem_RegistoFertelização"><rect codeLine="163" fill="#F1F1F1" height="53.2188" id="RegistoFertelização" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="913" y="2670.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="916" y="2690.0332">RegistoFertelização</text><line style="stroke:#181818;stroke-width:0.5;" x1="914" x2="1043" y1="2698.1094" y2="2698.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="921" y="2709.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="933" y="2716.6426">tipoFertelização</text></g><!--MD5=[8945e16b38a15829ca2cc16b8da41df3]
+class RegistoRega--><g id="elem_RegistoRega"><rect codeLine="167" fill="#F1F1F1" height="53.2188" id="RegistoRega" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="934.5" y="2494.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="937.5" y="2514.0332">RegistoRega</text><line style="stroke:#181818;stroke-width:0.5;" x1="935.5" x2="1021.5" y1="2522.1094" y2="2522.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="942.5" y="2533.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="954.5" y="2540.6426">descricao</text></g><!--MD5=[2bf11bea23bb09425e0b89fe09d7d0f3]
+class RegistoColheita--><g id="elem_RegistoColheita"><rect codeLine="171" fill="#F1F1F1" height="53.2188" id="RegistoColheita" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="915" y="2582.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="928.5" y="2602.0332">RegistoColheita</text><line style="stroke:#181818;stroke-width:0.5;" x1="916" x2="1041" y1="2610.1094" y2="2610.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="923" y="2621.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="935" y="2628.6426">produtoColheita</text></g><!--MD5=[565a69f07265dba636c35bc809821c66]
+class Medicoes--><g id="elem_Medicoes"><rect codeLine="175" fill="#F1F1F1" height="70.8281" id="Medicoes" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="918.5" y="2910.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="948.5" y="2930.0332">Medicoes</text><line style="stroke:#181818;stroke-width:0.5;" x1="919.5" x2="1037.5" y1="2938.1094" y2="2938.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="926.5" y="2949.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="938.5" y="2956.6426">valorLido</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="926.5" y="2967.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="938.5" y="2974.252">instanteLeitura</text></g><!--MD5=[97d46ae094d28e0d28828e4b8046fed1]
+class Sensor--><g id="elem_Sensor"><rect codeLine="254" fill="#F1F1F1" height="141.2656" id="Sensor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="1276.5" y="2913.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="1317" y="2933.0332">Sensor</text><line style="stroke:#181818;stroke-width:0.5;" x1="1277.5" x2="1401.5" y1="2941.1094" y2="2941.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="2952.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1296.5" y="2959.6426">tipoSensor</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="2970.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1296.5" y="2977.252">valorReferencia</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="2987.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1296.5" y="2994.8613">idSensor</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="3005.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1296.5" y="3012.4707">limiteMáximo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="3022.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1296.5" y="3030.0801">limiteMínimo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="3040.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1296.5" y="3047.6895">numeroLeituras</text></g><!--MD5=[a5c93cab772bd5aa741d55b3346fcad2]
+class ProcessoLeitura--><g id="elem_ProcessoLeitura"><rect codeLine="185" fill="#F1F1F1" height="106.0469" id="ProcessoLeitura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="1596" y="3159"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1623.5" y="3178.5332">ProcessoLeitura</text><line style="stroke:#181818;stroke-width:0.5;" x1="1597" x2="1753" y1="3186.6094" y2="3186.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1604" y="3197.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1616" y="3205.1426">dataHora</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1604" y="3215.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1616" y="3222.752">numRegistosLidos</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1604" y="3233.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1616" y="3240.3613">numRegistoInseridos</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1604" y="3250.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1616" y="3257.9707">numErros</text></g><!--MD5=[9d5f90e3ad5bbe7e473e038bd3b61cf8]
+class GeradorValores--><g id="elem_GeradorValores"><rect codeLine="261" fill="#F1F1F1" height="70.8281" id="GeradorValores" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="1621.5" y="3300.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1624.5" y="3320.0332">GeradorValores</text><line style="stroke:#181818;stroke-width:0.5;" x1="1622.5" x2="1727.5" y1="3328.1094" y2="3328.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1629.5" y="3339.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="1641.5" y="3346.6426">state</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1629.5" y="3357.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="1641.5" y="3364.252">inc</text></g><!--MD5=[f12ef5966d9ec3970ba4ce5d012ee197]
+class MatrizDiáriaResumo--><g id="elem_MatrizDiáriaResumo"><rect codeLine="266" fill="#F1F1F1" height="88.4375" id="MatrizDiáriaResumo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="1273.5" y="2778"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1276.5" y="2797.5332">MatrizDiáriaResumo</text><line style="stroke:#181818;stroke-width:0.5;" x1="1274.5" x2="1404.5" y1="2805.6094" y2="2805.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1281.5" y="2816.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1293.5" y="2824.1426">valorMáximo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1281.5" y="2834.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1293.5" y="2841.752">valorMínimo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1281.5" y="2852.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="1293.5" y="2859.3613">média</text></g><!--MD5=[bab3c5104e097f6d962e8d2317645f20]
+class SensorTemperatura--><g id="elem_SensorTemperatura"><rect codeLine="272" fill="#F1F1F1" height="27.6094" id="SensorTemperatura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133" x="2245.5" y="2874"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="2248.5" y="2893.5332">SensorTemperatura</text></g><!--MD5=[7a260f34996c611515b369510ddaa1a8]
+class SensorVelocidadeVento--><g id="elem_SensorVelocidadeVento"><rect codeLine="273" fill="#F1F1F1" height="27.6094" id="SensorVelocidadeVento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="1596" y="2970"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1599" y="2989.5332">SensorVelocidadeVento</text></g><!--MD5=[d792711052f93c77b9d1a7e720e5bccb]
+class SensorDirecaoVento--><g id="elem_SensorDirecaoVento"><rect codeLine="274" fill="#F1F1F1" height="27.6094" id="SensorDirecaoVento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="1606.5" y="3033"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1609.5" y="3052.5332">SensorDirecaoVento</text></g><!--MD5=[3af7cb1ab7317154195d91e5e13284db]
+class SensorHumidadeAtmosferica--><g id="elem_SensorHumidadeAtmosferica"><rect codeLine="275" fill="#F1F1F1" height="27.6094" id="SensorHumidadeAtmosferica" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="188" x="1581" y="2836"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1584" y="2855.5332">SensorHumidadeAtmosferica</text></g><!--MD5=[7ef0db7d644f04e2e2ea84ba57467361]
+class SensorHumidadeSolo--><g id="elem_SensorHumidadeSolo"><rect codeLine="276" fill="#F1F1F1" height="27.6094" id="SensorHumidadeSolo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="1604" y="2702"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1607" y="2721.5332">SensorHumidadeSolo</text></g><!--MD5=[547606240a6876b0cfd02eedfd4e26a7]
+class SensorPluvio--><g id="elem_SensorPluvio"><rect codeLine="277" fill="#F1F1F1" height="27.6094" id="SensorPluvio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="89" x="1961.5" y="2788"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1964.5" y="2807.5332">SensorPluvio</text></g><!--MD5=[5af7f0763138004648cd36aa5b14e6ad]
+class ValoresErrados--><g id="elem_ValoresErrados"><rect codeLine="279" fill="#F1F1F1" height="27.6094" id="ValoresErrados" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="1954" y="3322"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1957" y="3341.5332">ValoresErrados</text></g><!--MD5=[a990404b2f37db7be50af31914507705]
+class ReiniciarGeradorValores--><g id="elem_ReiniciarGeradorValores"><rect codeLine="281" fill="#F1F1F1" height="27.6094" id="ReiniciarGeradorValores" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="2231" y="3322"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="2234" y="3341.5332">ReiniciarGeradorValores</text></g><!--MD5=[a38ac7820e382cc3cf3a668c1f6fb7dd]
+class FrequenciaLeitura--><g id="elem_FrequenciaLeitura"><rect codeLine="283" fill="#F1F1F1" height="27.6094" id="FrequenciaLeitura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="1614" y="3096"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1617" y="3115.5332">FrequenciaLeitura</text></g><!--MD5=[d9a71802fbdc04c50f4e8433772da521]
+class FicheiroConfiguracao--><g id="elem_FicheiroConfiguracao"><rect codeLine="285" fill="#F1F1F1" height="27.6094" id="FicheiroConfiguracao" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="1935" y="3096"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1938" y="3115.5332">FicheiroConfiguracao</text></g><!--MD5=[de521c5b97dc3b1b512d8e2d02332517]
+class ExportarCSV--><g id="elem_ExportarCSV"><rect codeLine="287" fill="#F1F1F1" height="27.6094" id="ExportarCSV" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="935" y="2847"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="938" y="2866.5332">ExportarCSV</text></g><!--MD5=[e66145d266c407ffaa9a1f58108bb271]
+class Produtor--><g id="elem_Produtor"><rect codeLine="315" fill="#F1F1F1" height="27.6094" id="Produtor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="1309" y="1322"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1312" y="1341.5332">Produtor</text></g><!--MD5=[a4cb0f987c11031dc931233a0e7767af]
+class Stock--><g id="elem_Stock"><rect codeLine="317" fill="#F1F1F1" height="27.6094" id="Stock" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="41" x="1654.5" y="1268"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="1657.5" y="1287.5332">Stock</text></g><!--MD5=[a764f81d04ba4d18872ae28caf1a31f6]
+class Particular--><g id="elem_Particular"><rect codeLine="319" fill="#F1F1F1" height="27.6094" id="Particular" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="66" x="583.5" y="811"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="586.5" y="830.5332">Particular</text></g><!--MD5=[7d0e5ddd73bd8fec86b8967827845935]
+class Empresa--><g id="elem_Empresa"><rect codeLine="321" fill="#F1F1F1" height="27.6094" id="Empresa" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="1644" y="1129"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1647" y="1148.5332">Empresa</text></g><!--MD5=[1724cbde570612fcb73a04af3da9e465]
+class FicheiroRega--><g id="elem_FicheiroRega"><rect codeLine="323" fill="#F1F1F1" height="88.4375" id="FicheiroRega" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="925.5" y="140"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="936" y="159.5332">FicheiroRega</text><line style="stroke:#181818;stroke-width:0.5;" x1="926.5" x2="1030.5" y1="167.6094" y2="167.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="933.5" y="178.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="945.5" y="186.1426">parcela</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="933.5" y="196.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="945.5" y="203.752">duração</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="933.5" y="214.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="945.5" y="221.3613">regularidade</text></g><!--MD5=[cdb1ed3b5dd4479f3bc326720d67717c]
+class ListaExpedição--><g id="elem_ListaExpedição"><rect codeLine="336" fill="#F1F1F1" height="27.6094" id="ListaExpedição" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101" x="1289" y="581"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1292" y="600.5332">ListaExpedição</text></g><!--MD5=[d93caa29388ee3217820eab7bd878454]
+class Estatisticas--><g id="elem_Estatisticas"><rect codeLine="338" fill="#F1F1F1" height="106.0469" id="Estatisticas" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="1624" y="518"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1639.5" y="537.5332">Estatisticas</text><line style="stroke:#181818;stroke-width:0.5;" x1="1625" x2="1725" y1="545.6094" y2="545.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1632" y="556.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1644" y="564.1426">porCabaz</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1632" y="574.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1644" y="581.752">porCliente</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1632" y="592.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1644" y="599.3613">porProdutor</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1632" y="609.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1644" y="616.9707">porHub</text></g><!--MD5=[e9fa8267fc6635f13dbb981aa5907ded]
+class ArmazemAgricola--><g id="elem_ArmazemAgricola"><rect codeLine="361" fill="#F1F1F1" height="53.2188" id="ArmazemAgricola" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="247" y="1495.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="250" y="1515.0332">ArmazemAgricola</text><line style="stroke:#181818;stroke-width:0.5;" x1="248" x2="361" y1="1523.1094" y2="1523.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="255" y="1534.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="267" y="1541.6426">dimensoes</text></g><!--MD5=[a9151f25fe54959f61f824f2e6762ae9]
+class Zona--><g id="elem_Zona"><rect codeLine="365" fill="#F1F1F1" height="70.8281" id="Zona" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="535.5" y="2132.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="600.5" y="2152.0332">Zona</text><line style="stroke:#181818;stroke-width:0.5;" x1="536.5" x2="696.5" y1="2160.1094" y2="2160.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="543.5" y="2171.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="555.5" y="2178.6426">dimensoes</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="543.5" y="2189.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="555.5" y="2196.252">temperaturaAmbiente</text></g><!--MD5=[90d32ccc189f11441a6ce7cbb63ad387]
+class Material--><g id="elem_Material"><rect codeLine="370" fill="#F1F1F1" height="106.0469" id="Material" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="175" x="1252" y="1654"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1314.5" y="1673.5332">Material</text><line style="stroke:#181818;stroke-width:0.5;" x1="1253" x2="1426" y1="1681.6094" y2="1681.6094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1260" y="1692.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1272" y="1700.1426">descricao</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1260" y="1710.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1272" y="1717.752">condutividadeTermica</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1260" y="1728.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1272" y="1735.3613">espessura</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1260" y="1745.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="1272" y="1752.9707">caracteristicasTermicas</text></g><!--MD5=[5e60c4f4fe381a0db1e2977ba8b3b1aa]
+class Estrutura--><g id="elem_Estrutura"><rect codeLine="377" fill="#F1F1F1" height="53.2188" id="Estrutura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="569.5" y="1711.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="587.5" y="1731.0332">Estrutura</text><line style="stroke:#181818;stroke-width:0.5;" x1="570.5" x2="662.5" y1="1739.1094" y2="1739.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="577.5" y="1750.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="589.5" y="1757.6426">dimensoes</text></g><!--MD5=[061d817d1dab8609ef658d3fabb51c79]
+class Porta--><g id="elem_Porta"><rect codeLine="381" fill="#F1F1F1" height="70.8281" id="Porta" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="906" y="1808.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="961.5" y="1828.0332">Porta</text><line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1050" y1="1836.1094" y2="1836.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1847.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="926" y="1854.6426">dimensoes</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1865.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="926" y="1872.252">resistenciaTermica</text></g><!--MD5=[9e1c9b40eba7fad257fd176bdb17623f]
+class Janela--><g id="elem_Janela"><rect codeLine="386" fill="#F1F1F1" height="70.8281" id="Janela" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="906" y="1596.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="958" y="1616.0332">Janela</text><line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1050" y1="1624.1094" y2="1624.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1635.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="926" y="1642.6426">dimensoes</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1653.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="926" y="1660.252">resistenciaTermica</text></g><!--MD5=[5705068a4309206a83d197dc189b8932]
+class Parede--><g id="elem_Parede"><rect codeLine="391" fill="#F1F1F1" height="70.8281" id="Parede" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="906" y="1490.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="955.5" y="1510.0332">Parede</text><line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1050" y1="1518.1094" y2="1518.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1529.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="926" y="1536.6426">dimensoes</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1547.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="926" y="1554.252">resistenciaTermica</text></g><!--MD5=[383ac04f5c8898de83a491f9862b3c6c]
+class Telhado--><g id="elem_Telhado"><rect codeLine="397" fill="#F1F1F1" height="70.8281" id="Telhado" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="906" y="1702.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="952.5" y="1722.0332">Telhado</text><line style="stroke:#181818;stroke-width:0.5;" x1="907" x2="1050" y1="1730.1094" y2="1730.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1741.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="926" y="1748.6426">dimensoes</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="914" y="1759.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="926" y="1766.252">resistenciaTermica</text></g><!--MD5=[17cce8ea41a703032b016781288ad299]
+class Energia--><g id="elem_Energia"><rect codeLine="402" fill="#F1F1F1" height="53.2188" id="Energia" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="930" y="2002.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="954" y="2022.0332">Energia</text><line style="stroke:#181818;stroke-width:0.5;" x1="931" x2="1026" y1="2030.1094" y2="2030.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="938" y="2041.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="950" y="2048.6426">quantidade</text></g><!--MD5=[24218dec15d972f51ef50f0c60b081c3]
+class Aquecedor--><g id="elem_Aquecedor"><rect codeLine="406" fill="#F1F1F1" height="27.6094" id="Aquecedor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="1302" y="2450"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1305" y="2469.5332">Aquecedor</text></g><!--MD5=[8d8a15c38f61c475a53d747b8071dd35]
+class ArCondicionado--><g id="elem_ArCondicionado"><rect codeLine="408" fill="#F1F1F1" height="27.6094" id="ArCondicionado" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="1286" y="2387"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1289" y="2406.5332">ArCondicionado</text></g><!--MD5=[37cd44fb32239425c45bc4e09a7d0dd8]
+class ControladorTemperatura--><g id="elem_ControladorTemperatura"><rect codeLine="410" fill="#F1F1F1" height="53.2188" id="ControladorTemperatura" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="897" y="2406.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="900" y="2426.0332">ControladorTemperatura</text><line style="stroke:#181818;stroke-width:0.5;" x1="898" x2="1059" y1="2434.1094" y2="2434.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="905" y="2445.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="917" y="2452.6426">quantidadeCalor</text></g><!--MD5=[1a66d3ee451f2800d4972ff342ae0698]
+class Exterior--><g id="elem_Exterior"><rect codeLine="414" fill="#F1F1F1" height="53.2188" id="Exterior" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="927" y="1914.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="954.5" y="1934.0332">Exterior</text><line style="stroke:#181818;stroke-width:0.5;" x1="928" x2="1029" y1="1942.1094" y2="1942.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="935" y="1953.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="947" y="1960.6426">temperatura</text></g><!--MD5=[21c1f7486681d20ecdeedc1a74f2d5ce]
+class ParedeInterior--><g id="elem_ParedeInterior"><rect codeLine="418" fill="#F1F1F1" height="27.6094" id="ParedeInterior" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="1291.5" y="1492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="1294.5" y="1511.5332">ParedeInterior</text></g><!--MD5=[4058da443e42a52a67ea730b84401911]
+class ParedeExterior--><g id="elem_ParedeExterior"><rect codeLine="419" fill="#F1F1F1" height="27.6094" id="ParedeExterior" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1289.5" y="1555"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1292.5" y="1574.5332">ParedeExterior</text></g><!--MD5=[81ab268f0e5a856a308539a63616b4fc]
+class ZonaA--><g id="elem_ZonaA"><rect codeLine="421" fill="#F1F1F1" height="27.6094" id="ZonaA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="955" y="2091"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="958" y="2110.5332">ZonaA</text></g><!--MD5=[e80f4ca90198435dffc94f1e30d1cb2a]
+class ZonaB--><g id="elem_ZonaB"><rect codeLine="422" fill="#F1F1F1" height="27.6094" id="ZonaB" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="955" y="2154"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="958" y="2173.5332">ZonaB</text></g><!--MD5=[71878c0a77ba40251ef421f9150d4562]
+class ZonaC--><g id="elem_ZonaC"><rect codeLine="423" fill="#F1F1F1" height="27.6094" id="ZonaC" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="954.5" y="2217"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="957.5" y="2236.5332">ZonaC</text></g><!--MD5=[50dff2812dae000fe472dcf0e473436a]
+class ZonaD--><g id="elem_ZonaD"><rect codeLine="424" fill="#F1F1F1" height="27.6094" id="ZonaD" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="954.5" y="2280"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="957.5" y="2299.5332">ZonaD</text></g><!--MD5=[8f2c0ce03a15b156329f81dc980321de]
+class ZonaE--><g id="elem_ZonaE"><rect codeLine="425" fill="#F1F1F1" height="27.6094" id="ZonaE" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="955" y="2343"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="958" y="2362.5332">ZonaE</text></g><!--MD5=[9a4f2e004ec119863244abc0460649cc]
+class Potencia--><g id="elem_Potencia"><rect codeLine="427" fill="#F1F1F1" height="53.2188" id="Potencia" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="1307" y="2002.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1312" y="2022.0332">Potencia</text><line style="stroke:#181818;stroke-width:0.5;" x1="1308" x2="1371" y1="2030.1094" y2="2030.1094"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1315" y="2041.4141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="1327" y="2048.6426">tempo</text></g><!--MD5=[1441f2d033b15d5f56ff93811e3f26f0]
+link GestorAgricola to SistemaRega--><g id="link_GestorAgricola_SistemaRega"><path codeLine="193" d="M59.92,1239.88 C67.39,1185.89 96.19,987.6 137,828 C181.52,653.87 254.18,452.5 286.77,365.17 " fill="none" id="GestorAgricola-SistemaRega" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="159.2552,576.3359,154.1397,584.3535,159.8293,585.8291,159.2552,576.3359" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="167" y="586.4951">gere</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="52.6989" y="1229.0833">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="278.5458" y="386.9729">*</text></g><!--MD5=[b7a30857918ef307047206c935bd060f]
+link GestorAgricola to Setor--><g id="link_GestorAgricola_Setor"><path codeLine="194" d="M63.13,1239.82 C93.01,1157.17 244.95,736.95 290.54,610.83 " fill="none" id="GestorAgricola-Setor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="159.7,840.4737,153.8608,847.9806,159.3885,849.9791,159.7,840.4737" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="167" y="850.4951">gere</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="66.6811" y="1229.2731">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="282.7109" y="631.9034">*</text></g><!--MD5=[c1c1c4e42d60691e22a219f756012e57]
+link SistemaRega to Controlador--><g id="link_SistemaRega_Controlador"><path codeLine="196" d="M363.08,276.86 C374.91,268.93 387.56,261.22 400,255 C458.3,225.83 531.29,204.7 575.6,193.41 " fill="none" id="SistemaRega-Controlador" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="431.1541,205.3483,421.6606,205.9187,423.809,211.3898,431.1541,205.3483" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="435.5" y="212.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="364.8584" y="266.0385">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="560.9688" y="209.9612">1</text></g><!--MD5=[e6c7d5815e31384bc6e06c54dc87ed06]
+link Controlador to PlanoRega--><g id="link_Controlador_PlanoRega"><path codeLine="197" d="M657.06,170.49 C721.17,148.58 847.98,105.25 921.39,80.17 " fill="none" id="Controlador-PlanoRega" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="775.2314,97.5591,765.7219,97.7027,767.6225,103.2648,775.2314,97.5591" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="779.5" y="104.4951">define</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="664.9082" y="183.0697">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="906.6243" y="97.1408">1</text></g><!--MD5=[9ae9ef507e67f32d45423470ad4b325b]
+link PlanoRega to Cultura--><g id="link_PlanoRega_Cultura"><path codeLine="198" d="M1035.59,81.62 C1105.5,107.33 1223.82,150.83 1289.99,175.16 " fill="none" id="PlanoRega-Cultura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1135.6928,104.9013,1128.2176,99.0214,1126.1892,104.5382,1135.6928,104.9013" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="1140" y="108.4951">acontecem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1043.5974" y="98.9552">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1277.026" y="187.1884">*</text></g><!--MD5=[ad45d537152c871026eeea162167d279]
+link Cultura to Safra--><g id="link_Cultura_Safra"><path codeLine="200" d="M1389.35,193 C1452.4,193 1561.5,193 1624.75,193 " fill="none" id="Cultura-Safra" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1480,184.1758,1470.9549,181.2369,1470.9549,187.1147,1480,184.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1484" y="189.4951">acontece</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1396.8523" y="207.6569">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1612.0023" y="207.6925">*</text></g><!--MD5=[65afb9f3a6c92b0c1f0f5f341400caf2]
+link Cultura to AplicaçõesRealizar--><g id="link_Cultura_AplicaçõesRealizar"><path codeLine="201" d="M1389.35,174.84 C1448.42,152.87 1547.91,115.88 1612.24,91.96 " fill="none" id="Cultura-AplicaçõesRealizar" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1470.6865,106.4331,1461.1843,106.831,1463.2328,112.3403,1470.6865,106.4331" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="1475" y="113.4951">realizam -se</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1396.8523" y="186.9432">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1599.6943" y="109.0651">*</text></g><!--MD5=[9a075a695d30f6a111a2949cf964bb7d]
+link AplicaçõesRealizar to PlanoAnual--><g id="link_AplicaçõesRealizar_PlanoAnual"><path codeLine="202" d="M1737.88,69 C1793.91,69 1876.38,69 1934.84,69 " fill="none" id="AplicaçõesRealizar-PlanoAnual" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1815,60.1758,1805.9549,57.2369,1805.9549,63.1147,1815,60.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1819" y="65.4951">leva a realizar</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1745.4396" y="83.4504">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1920.1407" y="83.356">1</text></g><!--MD5=[74aa4f9cd67488a949e59197e29c7bed]
+link Cultura to ProdutoAgricola--><g id="link_Cultura_ProdutoAgricola"><path codeLine="203" d="M1389.01,210.73 C1500.84,251.6 1767.31,349.15 1769,351 C1891.23,485.34 1982.25,1082 2001.31,1215.46 " fill="none" id="Cultura-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1662.602,277.4454,1660.4046,268.1922,1655.3853,271.251,1662.602,277.4454" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1669" y="278.4951">gera</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1396.974" y="228.2051">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1994.5574" y="1204.5522">*</text></g><!--MD5=[371d200990271be10672cccbe3193216]
+link Setor to Cultura--><g id="link_Setor_Cultura"><path codeLine="205" d="M354.29,539.27 C368.77,529.13 384.82,518.31 400,509 C456.27,474.48 470.61,465.66 531,439 C807.19,317.08 1161.76,232.09 1289.73,203.53 " fill="none" id="Setor-Cultura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="781.2061,314.4867,771.6999,314.7761,773.6855,320.3084,781.2061,314.4867" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="321.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="362.117" y="548.7307">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1277.0528" y="219.7852">*</text></g><!--MD5=[e7a9078e9a26417068120eb5b92091bb]
+link Setor to OperacoesAgricolas--><g id="link_Setor_OperacoesAgricolas"><path codeLine="206" d="M354.28,564.77 C406.88,553.74 490.93,536.12 549.43,523.85 " fill="none" id="Setor-OperacoesAgricolas" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="429.3936,525.1497,419.9379,524.1295,421.1441,529.8823,429.3936,525.1497" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="433.5" y="531.4951">ocorrem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="362.1055" y="568.801">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="536.386" y="539.8891">*</text></g><!--MD5=[7d47ea97259c96c09d17c5dd3e514be4]
+link Setor to Restricoes--><g id="link_Setor_Restricoes"><path codeLine="207" d="M354.32,580.71 C477.05,593.91 807.99,622.29 1079,580 C1144.08,569.85 1215.14,546.18 1266.42,526.71 " fill="none" id="Setor-Restricoes" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="781.4913,591.8803,772.2883,589.4811,772.6357,595.3486,781.4913,591.8803" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="597.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="362.1514" y="596.2572">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1253.6258" y="544.121">*</text></g><!--MD5=[076d7d5d9f7b4fd0859d0d4e4e9b600e]
+link OperacoesAgricolas to FatorProdução--><g id="link_OperacoesAgricolas_FatorProdução"><path codeLine="209" d="M683.53,487.44 C747.27,465.66 843.39,432.82 908.21,410.67 " fill="none" id="OperacoesAgricolas-FatorProdução" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="769.7314,423.5591,760.2219,423.7026,762.1224,429.2648,769.7314,423.5591" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="774" y="430.4951">aplicam</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="691.5694" y="499.2692">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="895.7035" y="427.4468">*</text></g><!--MD5=[531c1a3633bd95b172e1810816b58a48]
+link OperacoesAgricolas to RegistoOperacoesAgricolas--><g id="link_OperacoesAgricolas_RegistoOperacoesAgricolas"><path codeLine="210" d="M683.53,511.65 C740.77,513.08 824.14,515.17 887.48,516.75 " fill="none" id="OperacoesAgricolas-RegistoOperacoesAgricolas" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="766.9984,504.3008,758.0296,501.1367,757.8827,507.0127,766.9984,504.3008" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="771" y="509.4951">é ativado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="691.685" y="526.2785">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="872.3572" y="530.7356">1</text></g><!--MD5=[04e59373af727b66394d9fb718ec3699]
+link FatorProdução to Restricoes--><g id="link_FatorProdução_Restricoes"><path codeLine="212" d="M1048.72,408.21 C1111.27,427.38 1202.99,455.48 1266.42,474.91 " fill="none" id="FatorProdução-Restricoes" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1118.2194,418.7111,1126.0067,424.1708,1127.7286,418.5508,1118.2194,418.7111" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="1132" y="425.4951">são aplicadas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1056.3224" y="424.7331">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1253.6258" y="486.9791">*</text></g><!--MD5=[560843f31f78eb23b37b966424793e9a]
+link FatorProdução to FichaTécnica--><g id="link_FatorProdução_FichaTécnica"><path codeLine="213" d="M1048.72,389.51 C1121.05,392.13 1232.39,396.16 1293.87,398.38 " fill="none" id="FatorProdução-FichaTécnica" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1146.4967,383.3566,1137.5638,380.0925,1137.3513,385.9665,1146.4967,383.3566" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1150.5" y="388.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1056.3224" y="404.1047">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1279.0399" y="412.9025">1</text></g><!--MD5=[11d41a070f47c0714542df0f75403903]
+link FichaTécnica to Elemento--><g id="link_FichaTécnica_Elemento"><path codeLine="215" d="M1385.13,401.74 C1447.96,404.19 1562,408.63 1626.4,411.14 " fill="none" id="FichaTécnica-Elemento" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1466.9962,396.3704,1458.0724,393.0816,1457.8436,398.955,1466.9962,396.3704" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1471" y="401.4951">composto por</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1393.1015" y="416.8593">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1613.5753" y="425.5687">*</text></g><!--MD5=[44294196f11cf298220fa2617024aee5]
+link GestorAgricola to Cliente--><g id="link_GestorAgricola_Cliente"><path codeLine="217" d="M73.73,1239.84 C112.57,1204.88 213.78,1113.76 268,1064.96 " fill="none" id="GestorAgricola-Cliente" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="161.7161,1111.8306,153.0273,1115.6978,156.9599,1120.0664,161.7161,1111.8306" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="167" y="1120.4951">gere</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="81.0614" y="1229.0281">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="254.9563" y="1086.7057">*</text></g><!--MD5=[412c099fe0757e45cb7b6b8692b98a91]
+link Cliente to Incidente--><g id="link_Cliente_Incidente"><path codeLine="219" d="M341.06,1019.81 C393.07,1000.52 490.59,964.34 554.27,940.71 " fill="none" id="Cliente-Incidente" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="441.6878,951.4366,432.1853,951.8274,434.2297,957.3382,441.6878,951.4366" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="446" y="958.4951">têm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="348.9468" y="1032.2918">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="541.381" y="957.9427">*</text></g><!--MD5=[ab6e745a9648639203ed5b66aecbe49c]
+link Cliente to EncomendasAnuais--><g id="link_Cliente_EncomendasAnuais"><path codeLine="220" d="M341.06,1033 C387.02,1033 468.54,1033 530.82,1033 " fill="none" id="Cliente-EncomendasAnuais" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="442,1024.1758,432.9549,1021.2369,432.9549,1027.1147,442,1024.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="446" y="1029.4951">têm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="348.9468" y="1048.0786">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="515.8774" y="1047.2309">1</text></g><!--MD5=[a602fb0a2a1e983f14b1435561d150f4]
+link Cliente to Morada--><g id="link_Cliente_Morada"><path codeLine="221" d="M339.72,962.34 C355.56,934.09 376.16,902.52 400,878 C448.38,828.24 465.52,816.01 531,793 C598.95,769.11 682.75,764.93 736.04,765.15 " fill="none" id="Cliente-Morada" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="441.4765,794.9485,432.0693,796.3465,434.6876,801.6089,441.4765,794.9485" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="446" y="802.4951">têm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="335.9911" y="951.7277">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="721.6779" y="779.4666">1</text></g><!--MD5=[8a72f9455eae6373e85b5c4b3e6ffd5a]
+link Cliente to Pessoa--><g id="link_Cliente_Pessoa"><path codeLine="222" d="M327.48,1103.86 C342.48,1141.76 365.9,1186.55 400,1216 C425.28,1237.84 511.03,1263.08 566.44,1277.72 " fill="none" id="Cliente-to-Pessoa" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="568.39,1270.99,586,1282.78,564.88,1284.55,568.39,1270.99" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[28d2aa8b6422047789e885c1c3e107c9]
+link Cliente to Hub--><g id="link_Cliente_Hub"><path codeLine="223" d="M341.37,1044.14 C385.48,1057.22 462.89,1078.1 531,1086 C819.36,1119.43 1169.35,1085.07 1292.77,1070.69 " fill="none" id="Cliente-Hub" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="749.4981,1091.3153,740.5385,1088.1252,740.3745,1094.0007,749.4981,1091.3153" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="753.5" y="1096.4951">têm por defeito</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="349.121" y="1061.4118">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1278.0785" y="1086.3047">1</text></g><!--MD5=[beec9e5f2ed2709028dd31c1dc478e7b]
+link Cliente to Encomenda--><g id="link_Cliente_Encomenda"><path codeLine="224" d="M316.29,962.47 C328.14,906.72 352.25,830.19 400,780 C471.9,704.42 511.18,687 615.5,687 C615.5,687 615.5,687 1340.5,687 C1437.21,687 1544.63,722.02 1610.75,747.88 " fill="none" id="Cliente-Encomenda" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="972.4327,677.3581,963.0287,675.938,963.99,681.7367,972.4327,677.3581" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="17" x="976.5" y="683.4951">faz</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="310.1449" y="951.8711">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1598.032" y="759.1693">*</text></g><!--MD5=[e83263f9f21f3e0673b4e73eccf0d797]
+link Morada to Encomenda--><g id="link_Morada_Encomenda"><path codeLine="226" d="M843.59,767.48 C997.21,768.87 1444.83,772.92 1610.97,774.43 " fill="none" id="Morada-Encomenda" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1148.4998,761.2211,1139.4817,758.2003,1139.4285,764.078,1148.4998,761.2211" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1152.5" y="766.4951">recebe</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="851.6183" y="782.2044">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1597.8617" y="788.8359">*</text></g><!--MD5=[f44f6c42683e8d5db7dee414d32d970d]
+link Encomenda to ProdutoAgricola--><g id="link_Encomenda_ProdutoAgricola"><path codeLine="228" d="M1725.79,845.67 C1800.07,951.11 1936.48,1144.74 1986.22,1215.35 " fill="none" id="Encomenda-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1830.8796,948.2633,1828.073,939.1763,1823.2678,942.5615,1830.8796,948.2633" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1837" y="949.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1725.7699" y="867.2824">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1976.0678" y="1204.8477">*</text></g><!--MD5=[9e8c43ed59e01d4e6cfb1d469d45bcf4]
+link GestorAgricola to Pessoa--><g id="link_GestorAgricola_Pessoa"><path codeLine="230" d="M107.47,1257.19 C213.2,1264.02 460.1,1279.97 565.92,1286.8 " fill="none" id="GestorAgricola-to-Pessoa" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="566.46,1279.82,585.97,1288.09,565.56,1293.79,566.46,1279.82" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[1dacff8d7b8fc64888410612fa4c8df5]
+reverse link Pessoa to Condutor--><g id="link_Pessoa_Condutor"><path codeLine="231" d="M667.54,1287.08 C742.87,1282.69 883.26,1274.5 945.91,1270.84 " fill="none" id="Pessoa-backto-Condutor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="667.64,1294.09,647.27,1288.26,666.82,1280.11,667.64,1294.09" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[0381e599b0b1c337fb020b8a9f9d6ac1]
+link Condutor to Hub--><g id="link_Condutor_Hub"><path codeLine="232" d="M1011.26,1259.08 C1059.11,1243.36 1151.57,1209.95 1222,1166 C1247.21,1150.27 1272.46,1129.19 1292.97,1110.36 " fill="none" id="Condutor-Hub" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1118.4217,1154.8415,1109.0507,1156.4653,1111.7949,1161.6632,1118.4217,1154.8415" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="1123" y="1162.4951">transporta para o</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1018.9731" y="1252.7363">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1279.8494" y="1132.7181">*</text></g><!--MD5=[ab21afd9bff806c559965c08338eb27b]
+link Condutor to ProdutoAgricola--><g id="link_Condutor_ProdutoAgricola"><path codeLine="233" d="M1011.13,1267.32 C1120.36,1261.61 1491.87,1242.99 1799,1237 C1846.1,1236.08 1857.9,1235.82 1905,1237 C1920.38,1237.38 1937.08,1238.1 1952.34,1238.87 " fill="none" id="Condutor-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1477.4977,1235.0247,1468.368,1232.3604,1468.5456,1238.2356,1477.4977,1235.0247" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="1481.5" y="1240.4951">transporta</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1018.8147" y="1282.2788">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1939.4425" y="1253.0593">*</text></g><!--MD5=[fd5ff883373e57ed9a7e06a59bfdc473]
+link Hub to Encomenda--><g id="link_Hub_Encomenda"><path codeLine="235" d="M1386.17,1025.28 C1444.42,974.64 1545.42,886.81 1610.97,829.81 " fill="none" id="Hub-Encomenda" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1483.7731,873.895,1475.0191,877.6122,1478.8759,882.0478,1483.7731,873.895" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1489" y="882.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1393.8523" y="1033.9413">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1597.8617" y="850.9653">*</text></g><!--MD5=[d4348196b36564aac972ac8ebb6eca38]
+link Hub to Input_Hub--><g id="link_Hub_Input_Hub"><path codeLine="236" d="M1386.17,1065 C1448.7,1065 1560.5,1065 1624.82,1065 " fill="none" id="Hub-Input_Hub" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1478.5,1056.1758,1469.4549,1053.2369,1469.4549,1059.1147,1478.5,1056.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1482.5" y="1061.4951">baseia-se</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1393.8523" y="1079.7434">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1609.9357" y="1079.6799">1</text></g><!--MD5=[0ff96a2823e954ec0d5aa6c0dfa250e4]
+link GestorAgricola to CadernoCampo--><g id="link_GestorAgricola_CadernoCampo"><path codeLine="238" d="M60.59,1268.3 C85.14,1403.78 276.36,2459.21 300.91,2594.7 " fill="none" id="GestorAgricola-CadernoCampo" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="142.8914,1689.0957,144.1707,1679.6715,138.387,1680.7194,142.8914,1689.0957" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="151" y="1689.4951">regista no</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="53.6187" y="1289.0215">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="291.2956" y="2584.1088">1</text></g><!--MD5=[e3d8ca6fc19199c7bddebf0e823616a8]
+link CadernoCampo to ResumoMeteorológico--><g id="link_CadernoCampo_ResumoMeteorológico"><path codeLine="240" d="M330.34,2623.11 C375.89,2648.96 474.35,2704.86 542.74,2743.69 " fill="none" id="CadernoCampo-ResumoMeteorológico" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="430.8482,2659.6443,424.4332,2652.623,421.5313,2657.7345,430.8482,2659.6443" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="435.5" y="2662.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="330.7401" y="2644.052">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="529.8757" y="2753.7456">*</text></g><!--MD5=[39728aa1cf7143eca427a7410327f68b]
+link CadernoCampo to Registo--><g id="link_CadernoCampo_Registo"><path codeLine="241" d="M357.74,2609 C416.41,2609 510.82,2609 567.64,2609 " fill="none" id="CadernoCampo-Registo" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="431.5,2600.1758,422.4549,2597.2369,422.4549,2603.1147,431.5,2600.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="435.5" y="2605.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="365.3644" y="2623.62">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="555.0965" y="2623.6638">*</text></g><!--MD5=[9ee327ae8531eacdc68c19547cd68033]
+link ResumoMeteorológico to EstaçãoMeteorológica--><g id="link_ResumoMeteorológico_EstaçãoMeteorológica"><path codeLine="243" d="M690.35,2785 C744.28,2785 818.39,2785 877.81,2785 " fill="none" id="ResumoMeteorológico-EstaçãoMeteorológica" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="771,2776.1758,761.9549,2773.2369,761.9549,2779.1147,771,2776.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="775" y="2781.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="698.2236" y="2799.3157">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="863.1585" y="2799.0875">1</text></g><!--MD5=[92b39d3eef1263af7632d148e2d35e17]
+link ResumoMeteorológico to Medicoes--><g id="link_ResumoMeteorológico_Medicoes"><path codeLine="244" d="M690.35,2817.58 C757.54,2847.63 856.03,2891.68 918.44,2919.59 " fill="none" id="ResumoMeteorológico-Medicoes" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="752.0643,2831.2171,745.0073,2824.8415,742.6075,2830.2072,752.0643,2831.2171" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="756.5" y="2834.4951">é feito através</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="698.2236" y="2835.2555">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="905.4245" y="2930.7599">*</text></g><!--MD5=[ea61d6ab1d118b1d92e1c0ad7997d241]
+link Medicoes to Sensor--><g id="link_Medicoes_Sensor"><path codeLine="245" d="M1038.59,2972.35 C1060.28,2980.7 1085.33,2988.84 1109,2993 C1164.96,3002.84 1229.73,2998.94 1276.17,2993.54 " fill="none" id="Medicoes-Sensor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1125.9802,2984.62,1117.232,2980.8891,1116.7098,2986.7437,1125.9802,2984.62" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="1130" y="2989.4951">são feitas pelo</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1046.6093" y="2990.2797">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1261.4428" y="3009.0681">1</text></g><!--MD5=[b7875cde7fbd2775a732758f9cfe99af]
+link Sensor to ProcessoLeitura--><g id="link_Sensor_ProcessoLeitura"><path codeLine="246" d="M1400.52,3054.57 C1417.65,3072.33 1437.11,3090.46 1457,3105 C1499.64,3136.17 1552.75,3162.54 1595.76,3181.3 " fill="none" id="Sensor-ProcessoLeitura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1482.6939,3098.8981,1476.7071,3091.5083,1473.5069,3096.4385,1482.6939,3098.8981" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="1487.5" y="3101.4951">executa</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1401.5549" y="3076.1721">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1582.9692" y="3192.646">*</text></g><!--MD5=[197c2cf0bc35fba69c29bf40d4bf7f8a]
+reverse link Registo to RegistoFertelização--><g id="link_Registo_RegistoFertelização"><path codeLine="248" d="M684.83,2625.46 C750.08,2641.41 848.37,2665.44 912.74,2681.17 " fill="none" id="Registo-backto-RegistoFertelização" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="683.07,2632.23,665.31,2620.69,686.4,2618.64,683.07,2632.23" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[2202c231b13c47976ea05266bdc918c0]
+reverse link Registo to RegistoRega--><g id="link_Registo_RegistoRega"><path codeLine="249" d="M685.2,2592.45 C758.28,2574.59 872.49,2546.67 934.28,2531.56 " fill="none" id="Registo-backto-RegistoRega" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="686.4,2599.36,665.31,2597.31,683.07,2585.77,686.4,2599.36" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[d0940dcf25d84ebd90e22bb2edd88a90]
+reverse link Registo to RegistoColheita--><g id="link_Registo_RegistoColheita"><path codeLine="250" d="M685.48,2609 C751.49,2609 850.88,2609 914.97,2609 " fill="none" id="Registo-backto-RegistoColheita" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="685.31,2616,665.31,2609,685.31,2602,685.31,2616" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[8233e23dae460e5463dce30d0ccb6f26]
+link SensorPluvio to SensorTemperatura--><g id="link_SensorPluvio_SensorTemperatura"><path codeLine="290" d="M2050.56,2814.32 C2106.38,2830.11 2202.91,2857.42 2261.47,2873.99 " fill="none" id="SensorPluvio-SensorTemperatura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="2116.8112,2825.5369,2108.9078,2820.2467,2107.3076,2825.9025,2116.8112,2825.5369" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="2121" y="2829.4951">é influenciado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2058.5199" y="2831.2421">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2233.8711" y="2863.2353">1</text></g><!--MD5=[285e5a05397df4027ebb0ea36f63c3cd]
+link SensorHumidadeAtmosferica to SensorPluvio--><g id="link_SensorHumidadeAtmosferica_SensorPluvio"><path codeLine="291" d="M1769.17,2843.72 C1810.91,2840.12 1860.62,2834.73 1905,2827 C1923.69,2823.74 1944.04,2818.9 1961.48,2814.34 " fill="none" id="SensorHumidadeAtmosferica-SensorPluvio" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1814.9427,2817.4207,1805.5575,2815.8815,1806.4452,2821.6919,1814.9427,2817.4207" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1819" y="2823.4951">é influenciado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1776.9531" y="2857.3818">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1946.5267" y="2831.2654">1</text></g><!--MD5=[dcb34896610da242d57884902f1e4b90]
+link SensorHumidadeSolo to SensorPluvio--><g id="link_SensorHumidadeSolo_SensorPluvio"><path codeLine="292" d="M1746.11,2725.07 C1791.94,2731.99 1852.76,2743.08 1905,2759 C1929.95,2766.6 1957.06,2778.5 1976.75,2787.86 " fill="none" id="SensorHumidadeSolo-SensorPluvio" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1814.8244,2727.4892,1806.869,2722.2775,1805.325,2727.9489,1814.8244,2727.4892" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1819" y="2731.4951">é influenciado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1753.8042" y="2740.3637">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1957.2641" y="2777.0557">1</text></g><!--MD5=[2539cb65c12c4224274ed282fd7144b0]
+reverse link Sensor to SensorTemperatura--><g id="link_Sensor_SensorTemperatura"><path codeLine="294" d="M1422.5,2964.22 C1434.04,2961.87 1445.78,2959.7 1457,2958 C1748.94,2913.67 2101.6,2896 2245.29,2890.3 " fill="none" id="Sensor-backto-SensorTemperatura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1423.8,2971.1,1402.78,2968.44,1420.87,2957.41,1423.8,2971.1" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[779883c55607bf669a577721b4394e61]
+reverse link Sensor to SensorVelocidadeVento--><g id="link_Sensor_SensorVelocidadeVento"><path codeLine="295" d="M1422.98,2984 C1475.78,2984 1543.86,2984 1595.8,2984 " fill="none" id="Sensor-backto-SensorVelocidadeVento" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1422.84,2991,1402.84,2984,1422.84,2977,1422.84,2991" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[f104933ac69f393ef074bda925122816]
+reverse link Sensor to SensorDirecaoVento--><g id="link_Sensor_SensorDirecaoVento"><path codeLine="296" d="M1422.77,2999.54 C1479.2,3010.2 1553.19,3024.18 1606.23,3034.2 " fill="none" id="Sensor-backto-SensorDirecaoVento" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1421.19,3006.37,1402.84,2995.78,1423.79,2992.61,1421.19,3006.37" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[3ed745be9b1323532d4ab5cd1cdbd451]
+reverse link Sensor to SensorHumidadeAtmosferica--><g id="link_Sensor_SensorHumidadeAtmosferica"><path codeLine="297" d="M1418.8,2913.33 C1430.99,2904.81 1443.9,2897.01 1457,2891 C1495.59,2873.29 1541.41,2863.23 1580.97,2857.52 " fill="none" id="Sensor-backto-SensorHumidadeAtmosferica" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1422.91,2918.99,1402.68,2925.3,1414.57,2907.75,1422.91,2918.99" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[108e4582a1f2f758121179f6115c2bc4]
+reverse link Sensor to SensorHumidadeSolo--><g id="link_Sensor_SensorHumidadeSolo"><path codeLine="298" d="M1414.63,2904.77 C1419.2,2898 1423.4,2891.04 1427,2884 C1453.4,2832.36 1415.07,2797.07 1457,2757 C1495.6,2720.11 1556.41,2711.22 1603.85,2710.79 " fill="none" id="Sensor-backto-SensorHumidadeSolo" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1420.1,2909.15,1402.64,2921.14,1408.81,2900.87,1420.1,2909.15" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[b0fe48de29f33a35ee10ed960fd3446a]
+reverse link Sensor to SensorPluvio--><g id="link_Sensor_SensorPluvio"><path codeLine="299" d="M1415.08,2897.73 C1437.35,2872.06 1456.16,2850.52 1457,2850 C1619.66,2749.41 1863.15,2776.82 1961.49,2793.53 " fill="none" id="Sensor-backto-SensorPluvio" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1420.07,2902.66,1401.68,2913.19,1409.49,2893.49,1420.07,2902.66" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[0565b984cccea1ec1365e6946849e300]
+link Sensor to GeradorValores--><g id="link_Sensor_GeradorValores"><path codeLine="301" d="M1373.16,3054.75 C1393.85,3095.33 1423.07,3145.82 1457,3185 C1502.98,3238.1 1522.76,3243.72 1581,3283 C1593.63,3291.52 1607.72,3300.02 1621.02,3307.64 " fill="none" id="Sensor-GeradorValores" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1487.9998,3179.7466,1483.7675,3171.2297,1479.5697,3175.344,1487.9998,3179.7466" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="1493.5" y="3181.4951">utiliza</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1369.2703" y="3076.3706">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1606.6554" y="3318.56">1</text></g><!--MD5=[874f75d711a237ee14c842afdb76885f]
+link Medicoes to MatrizDiáriaResumo--><g id="link_Medicoes_MatrizDiáriaResumo"><path codeLine="302" d="M1038.65,2958.46 C1090.25,2966.17 1165.49,2969.53 1222,2939 C1242.5,2927.93 1236.35,2913.27 1252,2896 C1261.29,2885.75 1271.97,2875.57 1282.58,2866.19 " fill="none" id="Medicoes-MatrizDiáriaResumo" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1148.6766,2928.4068,1139.1768,2928.8581,1141.2563,2934.3558,1148.6766,2928.4068" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="1153" y="2935.4951">origina</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1046.677" y="2956.5601">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1265.9506" y="2887.9961">1</text></g><!--MD5=[892fea3cc9c0dccf9dca60ab58db8f39]
+link GeradorValores to ValoresErrados--><g id="link_GeradorValores_ValoresErrados"><path codeLine="304" d="M1728.86,3336 C1790.8,3336 1892.72,3336 1953.9,3336 " fill="none" id="GeradorValores-ValoresErrados" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1833,3327.1758,1823.9549,3324.2369,1823.9549,3330.1147,1833,3327.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1837" y="3332.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1736.5678" y="3350.6053">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1940.8806" y="3350.7246">*</text></g><!--MD5=[566128db8a7bf242f42c2b88c14daf89]
+link ValoresErrados to ReiniciarGeradorValores--><g id="link_ValoresErrados_ReiniciarGeradorValores"><path codeLine="305" d="M2058.23,3336 C2105.44,3336 2176.25,3336 2230.93,3336 " fill="none" id="ValoresErrados-ReiniciarGeradorValores" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="2139,3327.1758,2129.9549,3324.2369,2129.9549,3330.1147,2139,3327.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="35" x="2143" y="3332.4951">fazem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="2065.9264" y="3350.6723">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2215.8694" y="3350.293">1</text></g><!--MD5=[151fcee332fe6d4b25103a46826e6882]
+link Sensor to FrequenciaLeitura--><g id="link_Sensor_FrequenciaLeitura"><path codeLine="307" d="M1402.72,3021.53 C1419.92,3030.97 1438.86,3040.54 1457,3048 C1508.45,3069.17 1569.59,3085.93 1613.84,3096.66 " fill="none" id="Sensor-FrequenciaLeitura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1495.2106,3040.8521,1487.6744,3035.0508,1485.7037,3040.5884,1495.2106,3040.8521" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="1499.5" y="3044.4951">têm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1410.4345" y="3040.2945">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1598.9596" y="3109.5495">1</text></g><!--MD5=[b8710c162fbf6c327da3ef9a57747bb9]
+link FrequenciaLeitura to FicheiroConfiguracao--><g id="link_FrequenciaLeitura_FicheiroConfiguracao"><path codeLine="308" d="M1736.34,3110 C1792.37,3110 1875.77,3110 1934.76,3110 " fill="none" id="FrequenciaLeitura-FicheiroConfiguracao" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1809,3101.1758,1799.9549,3098.2369,1799.9549,3104.1147,1809,3101.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1813" y="3106.4951">é obtida através</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1743.8371" y="3124.463">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1920.0524" y="3124.3584">1</text></g><!--MD5=[c5838d2e0be61de1fdced4756329d538]
+link ExportarCSV to MatrizDiáriaResumo--><g id="link_ExportarCSV_MatrizDiáriaResumo"><path codeLine="310" d="M1022.09,2856.37 C1084.22,2849.62 1200.22,2837.02 1273.18,2829.1 " fill="none" id="ExportarCSV-MatrizDiáriaResumo" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1129.5292,2827.7156,1138.8388,2829.6608,1138.2041,2823.8173,1129.5292,2827.7156" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1143.5" y="2832.4951">é possível</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1029.8893" y="2851.8347">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1258.5434" y="2844.242">1</text></g><!--MD5=[2e35bef98b94f852178910bbcf14439b]
+link ExportarCSV to Sensor--><g id="link_ExportarCSV_Sensor"><path codeLine="311" d="M1022.39,2865.77 C1071.86,2872.28 1155,2886.3 1222,2913 C1240.48,2920.37 1259.38,2930.54 1276.43,2940.89 " fill="none" id="ExportarCSV-Sensor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1129.7052,2869.758,1137.5457,2875.1411,1139.2124,2869.5045,1129.7052,2869.758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1143.5" y="2876.4951">é possível</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1029.9428" y="2881.3595">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1263.4387" y="2950.1113">*</text></g><!--MD5=[81ffc35081efdee1d704fefd39d388fd]
+link Produtor to Stock--><g id="link_Produtor_Stock"><path codeLine="345" d="M1370.1,1331.21 C1436.89,1320.39 1597.89,1294.32 1654.17,1285.21 " fill="none" id="Produtor-Stock" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1495.4357,1293.3765,1486.0371,1291.9213,1486.9767,1297.7235,1495.4357,1293.3765" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="1499.5" y="1299.4951">têm</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1377.9856" y="1325.8332">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1639.4148" y="1302.3966">1</text></g><!--MD5=[b50df4a73ec5ee8d73382202d79b1ab1]
+link Stock to ProdutoAgricola--><g id="link_Stock_ProdutoAgricola"><path codeLine="346" d="M1695.66,1280.48 C1735.33,1277.31 1827.78,1269.43 1905,1259 C1920.44,1256.91 1937.16,1254.24 1952.43,1251.63 " fill="none" id="Stock-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1841.9687,1249.6175,1832.6521,1247.7069,1833.3084,1253.548,1841.9687,1249.6175" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1846" y="1255.4951">é de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1703.361" y="1296.1589">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1939.5452" y="1267.6137">*</text></g><!--MD5=[3b0c59a988f32e994c122f254484851c]
+link Produtor to ProdutoAgricola--><g id="link_Produtor_ProdutoAgricola"><path codeLine="347" d="M1370.2,1339.16 C1440.35,1345.88 1621.5,1358.78 1769,1331 C1834.41,1318.68 1905.34,1289.62 1952.18,1268.03 " fill="none" id="Produtor-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1608.9631,1321.5692,1599.6282,1319.7493,1600.3413,1325.5837,1608.9631,1321.5692" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="1613" y="1327.4951">disponibiliza para venda</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1378.1088" y="1355.3217">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1939.612" y="1286.1068">*</text></g><!--MD5=[3681d12630a319579b83dad9faf78d18]
+reverse link Cliente to Particular--><g id="link_Cliente_Particular"><path codeLine="349" d="M354.95,977.46 C368.86,963.21 384.45,948.4 400,936 C453.33,893.46 469.57,885.67 531,856 C547.74,847.91 567.18,840.65 583.19,835.18 " fill="none" id="Cliente-backto-Particular" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="359.98,982.33,341.13,992,349.83,972.68,359.98,982.33" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[8557b06085de7d315efa3ee438d6e589]
+reverse link Cliente to Empresa--><g id="link_Cliente_Empresa"><path codeLine="350" d="M358.82,1070.36 C371.8,1077.95 385.98,1085.11 400,1090 C455.43,1109.35 472.5,1102.08 531,1107 C972.18,1144.12 1512.05,1143.89 1643.91,1143.21 " fill="none" id="Cliente-backto-Empresa" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="354.7,1076.04,341.44,1059.51,362.11,1064.16,354.7,1076.04" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[f453f8ebc49aa1b7e84588aad7fc957b]
+reverse link Hub to Empresa--><g id="link_Hub_Empresa"><path codeLine="351" d="M1405.73,1080.26 C1477.62,1097.07 1590.15,1123.39 1643.71,1135.92 " fill="none" id="Hub-backto-Empresa" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1404.05,1087.05,1386.17,1075.68,1407.24,1073.42,1404.05,1087.05" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[f9f51b0f3e52deb59c69e12ec6fd1ab3]
+reverse link Pessoa to Produtor--><g id="link_Pessoa_Produtor"><path codeLine="352" d="M667.21,1293.17 C806.47,1302.06 1197.43,1327 1308.65,1334.1 " fill="none" id="Pessoa-backto-Produtor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="666.62,1300.15,647.11,1291.89,667.51,1286.18,666.62,1300.15" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[eb2e4e9eac2a4612b631b5238b3f967a]
+link Controlador to FicheiroRega--><g id="link_Controlador_FicheiroRega"><path codeLine="354" d="M657.06,184 C722.35,184 852.69,184 925.41,184 " fill="none" id="Controlador-FicheiroRega" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="746,175.1758,736.9549,172.2369,736.9549,178.1147,746,175.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="750" y="180.4951">obtem os dados</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="664.9992" y="199.0385">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="910.452" y="198.6141">1</text></g><!--MD5=[9db9cdbd7495bdbc17217f54b44be5ea]
+link ListaExpedição to Encomenda--><g id="link_ListaExpedição_Encomenda"><path codeLine="356" d="M1390,606.43 C1434.17,617.93 1499.62,638.25 1551,668 C1571.94,680.13 1592.62,696.09 1610.86,711.97 " fill="none" id="ListaExpedição-Encomenda" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1466.5114,622.3316,1459.6174,615.78,1457.0831,621.0834,1466.5114,622.3316" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1471" y="625.4951">é formada por</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1397.9313" y="622.8334">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1598.1548" y="719.1072">*</text></g><!--MD5=[3c3e17b716c74893d53627ab5389f51c]
+link ListaExpedição to Estatisticas--><g id="link_ListaExpedição_Estatisticas"><path codeLine="358" d="M1390.07,591.43 C1452.94,586.91 1560.76,579.15 1623.89,574.61 " fill="none" id="ListaExpedição-Estatisticas" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1493.9871,571.817,1484.7545,569.5347,1485.1762,575.3974,1493.9871,571.817" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1498" y="577.4951">gera</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1398.0115" y="587.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1608.8692" y="589.8327">1</text></g><!--MD5=[fb3106d8ec30019596c58770d552f203]
+link GestorAgricola to ArmazemAgricola--><g id="link_GestorAgricola_ArmazemAgricola"><path codeLine="431" d="M70.85,1268.03 C109.92,1310.68 227.73,1439.28 279.1,1495.37 " fill="none" id="GestorAgricola-ArmazemAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="162.8773,1335.8627,158.9348,1327.2078,154.6005,1331.1781,162.8773,1335.8627" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="168.5" y="1337.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="67.4078" y="1289.2255">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="267.2994" y="1484.4402">*</text></g><!--MD5=[cb9d66b751ff3f99f27f3e5faf9c5942]
+link ArmazemAgricola to Zona--><g id="link_ArmazemAgricola_Zona"><path codeLine="432" d="M318.23,1548.53 C367.11,1650.38 542.78,2016.46 598.45,2132.47 " fill="none" id="ArmazemAgricola-Zona" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="407.1632,1726.6836,405.8996,1717.2574,400.6003,1719.8004,407.1632,1726.6836" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="414" y="1727.4951">é composto de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="313.5957" y="1570.0255">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="589.5327" y="2121.7171">*</text></g><!--MD5=[4f03ff35bcec607c8bee674c15782d74]
+reverse link Zona to ZonaA--><g id="link_Zona_ZonaA"><path codeLine="434" d="M717.42,2144.86 C722.34,2143.86 727.22,2142.9 732,2142 C813.54,2126.62 911.26,2113.45 954.73,2107.86 " fill="none" id="Zona-backto-ZonaA" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="718.74,2151.73,697.73,2149,715.86,2138.03,718.74,2151.73" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[162b3842a48e32ed80e5054ccfb7adc1]
+reverse link Zona to ZonaB--><g id="link_Zona_ZonaB"><path codeLine="435" d="M717.92,2168 C799.4,2168 908.13,2168 954.73,2168 " fill="none" id="Zona-backto-ZonaB" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="717.84,2175,697.84,2168,717.84,2161,717.84,2175" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[d4b54e92e308e2576c034f8bd0ca5a0f]
+reverse link Zona to ZonaC--><g id="link_Zona_ZonaC"><path codeLine="436" d="M717.61,2185.52 C798.9,2199.75 907.48,2218.75 954.35,2226.95 " fill="none" id="Zona-backto-ZonaC" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="716.34,2192.4,697.84,2182.06,718.75,2178.61,716.34,2192.4" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[578e1b1ce865b76acf8de75709b9f0b4]
+reverse link Zona to ZonaD--><g id="link_Zona_ZonaD"><path codeLine="437" d="M716.25,2209.1 C721.56,2211.13 726.84,2213.11 732,2215 C796.02,2238.41 813.11,2241.12 878,2262 C904.08,2270.39 934.01,2280.02 954.18,2286.5 " fill="none" id="Zona-backto-ZonaD" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="713.65,2215.6,697.58,2201.8,718.75,2202.56,713.65,2215.6" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[ba8885464bf75ae8666c40dc8253659a]
+reverse link Zona to ZonaE--><g id="link_Zona_ZonaE"><path codeLine="438" d="M671.45,2216.8 C689.88,2232.08 711.12,2248.26 732,2261 C792.49,2297.89 811.75,2299.9 878,2325 C903.96,2334.84 934.43,2344.34 954.75,2350.4 " fill="none" id="Zona-backto-ZonaE" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="666.77,2222.01,656.07,2203.72,675.84,2211.34,666.77,2222.01" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[e11f06e1e35d771354a4fab76f0150eb]
+link ArmazemAgricola to Estrutura--><g id="link_ArmazemAgricola_Estrutura"><path codeLine="440" d="M343.82,1548.7 C403.44,1590.24 517.7,1669.86 577.26,1711.36 " fill="none" id="ArmazemAgricola-Estrutura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="441.1023,1586.0343,435.3613,1578.4519,432.001,1583.2745,441.1023,1586.0343" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="446" y="1588.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="345.1034" y="1570.2348">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="559.8421" y="1700.4278">1</text></g><!--MD5=[109acb7ee9951175290157058b2bb85e]
+link Estrutura to Porta--><g id="link_Estrutura_Porta"><path codeLine="441" d="M663.83,1751.64 C725.17,1769.7 833.95,1801.73 905.9,1822.92 " fill="none" id="Estrutura-Porta" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="781.2964,1765.5881,773.4498,1760.2139,771.7895,1765.8524,781.2964,1765.5881" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="1769.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="671.6133" y="1768.4589">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="893.1553" y="1835.0932">*</text></g><!--MD5=[c9e4398af349b467f5df1930e130a74b]
+link Estrutura to Janela--><g id="link_Estrutura_Janela"><path codeLine="442" d="M663.83,1724.36 C725.17,1706.3 833.95,1674.27 905.9,1653.08 " fill="none" id="Estrutura-Janela" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="781.2964,1662.7634,771.7895,1662.4991,773.4498,1668.1376,781.2964,1662.7634" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="1669.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="671.6133" y="1737.0017">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="893.1553" y="1669.601">*</text></g><!--MD5=[57aba4d4d8f1c08e5f268fcb40314dce]
+link Estrutura to Parede--><g id="link_Estrutura_Parede"><path codeLine="443" d="M647.28,1711.42 C669.64,1692.19 701.54,1666.3 732,1647 C787.89,1611.59 855.62,1578.9 905.77,1556.45 " fill="none" id="Estrutura-Parede" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="780.7884,1574.6048,771.5195,1576.7351,774.5418,1581.7764,780.7884,1574.6048" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="1582.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="646.9295" y="1700.5024">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="893.0119" y="1573.9373">*</text></g><!--MD5=[0cb8c769704fb861fcab1f0b123048e7]
+link Estrutura to Telhado--><g id="link_Estrutura_Telhado"><path codeLine="444" d="M663.83,1738 C725.17,1738 833.95,1738 905.9,1738 " fill="none" id="Estrutura-Telhado" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="781.5,1729.1758,772.4549,1726.2369,772.4549,1732.1147,781.5,1729.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="785.5" y="1734.4951">tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="671.6133" y="1752.7303">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="891.0522" y="1752.3471">1</text></g><!--MD5=[8f0a26bb227552ca26810440761b1159]
+link Estrutura to Energia--><g id="link_Estrutura_Energia"><path codeLine="445" d="M628.94,1764.67 C646.2,1801.98 682.23,1869.71 732,1910 C775.11,1944.9 801.4,1925.93 848,1956 C863.58,1966.05 862.62,1974.65 878,1985 C893.9,1995.7 912.84,2004.84 929.9,2011.96 " fill="none" id="Estrutura-Energia" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="761.3632,1904.35,756.2404,1896.337,752.5088,1900.8785,761.3632,1904.35" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="766.5" y="1906.4951">precisa de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="624.0074" y="1786.1979">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="914.9222" y="2024.081">1</text></g><!--MD5=[178299bd9ec0fb826be7f3cb59766bf9]
+link Porta to Material--><g id="link_Porta_Material"><path codeLine="447" d="M1051.24,1827.14 C1100.28,1814.55 1166.25,1795.49 1222,1772 C1231.82,1767.86 1241.87,1763.11 1251.75,1758.11 " fill="none" id="Porta-Material" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1141.2277,1761.5482,1131.7185,1761.7137,1133.6319,1767.2714,1141.2277,1761.5482" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1145.5" y="1768.4951">é feita de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1058.9991" y="1839.7484">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1238.9941" y="1776.698">*</text></g><!--MD5=[7048ef6b64d0c54e9f0e6bc691180b7b]
+link Janela to Material--><g id="link_Janela_Material"><path codeLine="448" d="M1051.15,1657.65 C1069.81,1663.66 1090.01,1669.59 1109,1674 C1155.66,1684.84 1208.53,1692.73 1251.76,1698.07 " fill="none" id="Janela-Material" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1141.4015,1666.1634,1133.1151,1661.4958,1131.9541,1667.2578,1141.4015,1666.1634" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1145.5" y="1670.4951">é feita de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1058.8998" y="1674.6423">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1239.005" y="1711.4983">*</text></g><!--MD5=[600b61c5c2d359966102c07fa4d18353]
+link Parede to Material--><g id="link_Parede_Material"><path codeLine="449" d="M1050,1561.54 C1107.89,1590.73 1190.12,1632.19 1251.99,1663.39 " fill="none" id="Parede-Material" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1140.9646,1588.427,1134.2113,1581.7303,1131.5649,1586.9787,1140.9646,1588.427" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1145.5" y="1591.4951">é feita de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1057.2906" y="1582.8373">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1238.9735" y="1673.7272">*</text></g><!--MD5=[eb9c1873f98fe47b47b70db3045b07b3]
+link Telhado to Material--><g id="link_Telhado_Material"><path codeLine="450" d="M1051.19,1743.46 C1099.65,1745.88 1164.94,1746.69 1222,1739 C1231.77,1737.68 1241.88,1735.77 1251.87,1733.53 " fill="none" id="Telhado-Material" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1141.4939,1729.9287,1132.3146,1727.4404,1132.6051,1733.311,1141.4939,1729.9287" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1145.5" y="1735.4951">é feita de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1058.944" y="1758.3702">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1239.1245" y="1750.0056">*</text></g><!--MD5=[e8f689fb177c582e677c1c7654a33727]
+link Zona to Energia--><g id="link_Zona_Energia"><path codeLine="452" d="M679.19,2132.5 C696.02,2123.54 714.46,2114.39 732,2107 C798.98,2078.8 879.84,2054.97 929.98,2041.33 " fill="none" id="Zona-Energia" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="762.1991,2056.4675,752.6942,2056.7957,754.7024,2062.3199,762.1991,2056.4675" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="766.5" y="2063.4951">precisa de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="683.4731" y="2121.7528">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="915.0144" y="2057.9483">1</text></g><!--MD5=[1ef2b754e8c40cbd91779e990cc2b5dc]
+reverse link ControladorTemperatura to Aquecedor--><g id="link_ControladorTemperatura_Aquecedor"><path codeLine="454" d="M1080.27,2441.7 C1154.2,2448.09 1250.35,2456.39 1301.95,2460.84 " fill="none" id="ControladorTemperatura-backto-Aquecedor" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1079.39,2448.65,1060.07,2439.96,1080.59,2434.7,1079.39,2448.65" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[ae458f1e84965d637be3226682842141]
+reverse link ControladorTemperatura to ArCondicionado--><g id="link_ControladorTemperatura_ArCondicionado"><path codeLine="455" d="M1080.18,2424.03 C1147.05,2418.07 1232.13,2410.48 1285.98,2405.68 " fill="none" id="ControladorTemperatura-backto-ArCondicionado" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1080.61,2431.02,1060.07,2425.82,1079.37,2417.07,1080.61,2431.02" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[a0489dfe74351131a6abd75fb7a983a5]
+link Zona to ControladorTemperatura--><g id="link_Zona_ControladorTemperatura"><path codeLine="457" d="M633.07,2203.77 C651.52,2242.32 685.71,2303.11 732,2340 C780.03,2378.27 845.52,2402.02 896.78,2415.93 " fill="none" id="Zona-ControladorTemperatura" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="769.8957,2334.31,764.6905,2326.3503,761.006,2330.93,769.8957,2334.31" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="775" y="2336.4951">contém</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="628.3164" y="2224.8331">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="881.9238" y="2428.5951">1</text></g><!--MD5=[84ed7c5d1cf31e2d11cc77b494de956d]
+link Estrutura to Exterior--><g id="link_Estrutura_Exterior"><path codeLine="459" d="M646.6,1764.75 C668.89,1784.37 700.98,1810.83 732,1830 C792.73,1867.53 812.91,1867.67 878,1897 C893.84,1904.14 911.15,1911.83 926.82,1918.75 " fill="none" id="Estrutura-Exterior" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="741.3819,1823.5839,734.8705,1816.652,732.0395,1821.8032,741.3819,1823.5839" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="746" y="1826.4951">está em contacto</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="645.7513" y="1786.2964">1</text></g><!--MD5=[c58b6f152ee15198647502a6a82a3c61]
+link Zona to Exterior--><g id="link_Zona_Exterior"><path codeLine="460" d="M642.45,2132.45 C663.61,2104.48 696.16,2066.15 732,2041 C792.84,1998.3 874.62,1969.68 926.71,1954.36 " fill="none" id="Zona-Exterior" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="741.2371,1970.5212,732.0118,1972.8329,735.1324,1977.8139,741.2371,1970.5212" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="746" y="1978.4951">está em contacto</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="641.9202" y="2121.6933">*</text></g><!--MD5=[df3ea76608062564afba6a1782f1c1df]
+reverse link Parede to ParedeInterior--><g id="link_Parede_ParedeInterior"><path codeLine="462" d="M1071.35,1520.88 C1141.64,1516.97 1235.7,1511.73 1291.42,1508.62 " fill="none" id="Parede-backto-ParedeInterior" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1071.64,1527.88,1051.29,1522,1070.87,1513.9,1071.64,1527.88" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[000d522c01a431ed6100913abeedb237]
+reverse link Parede to ParedeExterior--><g id="link_Parede_ParedeExterior"><path codeLine="463" d="M1071.56,1537.03 C1140.94,1545.34 1233.4,1556.41 1289.3,1563.11 " fill="none" id="Parede-backto-ParedeExterior" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1070.31,1543.93,1051.29,1534.6,1071.98,1530.03,1070.31,1543.93" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[233fd20a88110763978e29446fcfa608]
+reverse link Energia to Potencia--><g id="link_Energia_Potencia"><path codeLine="465" d="M1047.25,2029 C1124.81,2029 1248.58,2029 1306.56,2029 " fill="none" id="Energia-backto-Potencia" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="none" points="1047.17,2036,1027.17,2029,1047.17,2022,1047.17,2036" style="stroke:#808080;stroke-width:1.0;"/></g><!--MD5=[42212b434fa812ea5bcb96d3f4f77b59]
+link ArmazemAgricola to ProdutoAgricola--><g id="link_ArmazemAgricola_ProdutoAgricola"><path codeLine="467" d="M362.21,1496.61 C423.42,1471.57 524.4,1437 615.5,1437 C615.5,1437 615.5,1437 1676,1437 C1806.47,1437 1930.49,1322.11 1981.09,1268.71 " fill="none" id="ArmazemAgricola-ProdutoAgricola" style="stroke:#808080;stroke-width:1.0;"/><polygon fill="#000000" points="1148.4512,1427.4788,1139.0847,1425.8294,1139.9041,1431.6499,1148.4512,1427.4788" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1152.5" y="1433.4951">guarda</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="370.0525" y="1507.8855">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1969.7514" y="1290.2472">*</text></g><!--MD5=[b79069f29971c74390dad9aa7db54676]
+@startuml Domain Model
+
+skinparam style strictuml
+skinparam DefaultFontStyle bold
+skinparam ArrowColor #gray
+hide empty members
+
+left to right direction
+
+
+' BDDAD - Base de dados
+class GestorAgricola
+
+class SistemaRega {
+    -tipoDistribuição
+    -tipoRega
+    -idGestorAgricola
+}
+
+class Controlador
+
+class PlanoRega {
+    -parcelasRega
+    -tempoRega
+    -periocidade
+}
+
+class Cultura {
+    -tipoCultura
+    -designação
+}
+
+class Safra {
+    -periocidade
+    -areaSafra
+    -quantidade
+    -lucro
+}
+
+class Setor {
+    -designação
+    -area
+}
+
+class OperacoesAgricolas {
+    -tipoOperacao
+    -dataAgendada
+    -dataRealizacao
+    -estadoOperacao
+}
+
+class RegistoOperacoesAgricolas {
+    -utilizador
+    -dataHora
+    -tipoAlteracao
+}
+
+class FatorProdução {
+    -classificaçãoFator
+    -nomeComercial
+    -formulacao
+    -fornecedor
+}
+
+class FichaTécnica {
+    -categoria
+}
+
+class Restricoes {
+    -dataInicioRestricao
+    -dataFimRestricao
+}
+
+class Elemento {
+    -substancia
+    -quantidade
+    -unidade
+}
+
+class AplicaçõesRealizar {
+    -quantidade
+    -dataPrevista
+}
+
+class PlanoAnual {
+    -correçõesMinerais
+    -fertilização
+    -necessidadeRega
+    -realizadoVia
+    -ano
+}
+
+class Incidente {
+    -valorDivida
+    -dataSanado
+    -dataOcorrencia
+}
+
+class EncomendasAnuais {
+    -numeroEncomendas
+    -valorTotalEncomendas
+}
+
+class Cliente {
+    -nivel
+    -plafond
+}
+
+class Morada {
+    -endereco
+    -codigoPostal
+}
+
+class Pessoa {
+    -nome
+    -nif
+    -email
+}
+
+class Encomenda {
+    -dataPedido
+    -dataVencimento
+    -dataPagamento
+    -dataEntrega
+    -estadoPedido
+    -valorTotal
+}
+
+class ProdutoAgricola {
+    -designação
+}
+
+class Condutor
+
+class Hub {
+    -codigoHub
+    -latitude
+    -longitude
+    -codigoEP
+}
+
+class Input_Hub {
+    -input_string
+}
+
+class CadernoCampo
+
+class EstaçãoMeteorológica {
+    -nomeEstacaoMeteorologica
+}
+
+class Registo {
+    -data
+    -parcela
+    -quantidade
+}
+
+class ResumoMeteorológico {
+    -resumoSensores
+    -resumoSolo
+    -dataResumo
+}
+
+class RegistoFertelização {
+    -tipoFertelização
+}
+
+class RegistoRega {
+    -descricao
+}
+
+class RegistoColheita {
+    -produtoColheita
+}
+
+class Medicoes {
+    -valorLido
+    -instanteLeitura
+}
+
+class Sensor {
+    -tipoSensor
+    -valorReferencia
+}
+
+class ProcessoLeitura {
+    -dataHora
+    -numRegistosLidos
+    -numRegistoInseridos
+    -numErros
+}
+
+
+GestorAgricola "1" - - "*" SistemaRega : gere >
+GestorAgricola "1" - - "*" Setor : gere >
+
+SistemaRega "1" - - "1" Controlador : contém >
+Controlador "1" - - "1" PlanoRega : define >
+PlanoRega "*" - - "*" Cultura : acontecem >
+
+Cultura "1" - - "*" Safra : acontece >
+Cultura "1" - - "*" AplicaçõesRealizar : realizam -se >
+AplicaçõesRealizar "*" - - "1" PlanoAnual : leva a realizar >
+Cultura "*" - - "*" ProdutoAgricola : gera >
+
+Setor "1" - - "*" Cultura : tem >
+Setor "1" - - "*" OperacoesAgricolas : ocorrem >
+Setor "1" - - "*" Restricoes : tem >
+
+OperacoesAgricolas "*" - - "*" FatorProdução : aplicam >
+OperacoesAgricolas "1" - - "1" RegistoOperacoesAgricolas : é ativado > 
+
+FatorProdução "1" - - "*" Restricoes : são aplicadas <
+FatorProdução "1" - - "1" FichaTécnica : contém >
+
+FichaTécnica "*" - - "*" Elemento : composto por >
+
+GestorAgricola "*" - - "*" Cliente : gere >
+
+Cliente "1" - - "*" Incidente : têm >
+Cliente "1" - - "1" EncomendasAnuais : têm >
+Cliente "1" - - "1" Morada : têm > 
+Cliente - -|> Pessoa
+Cliente "*" - - "1" Hub : têm por defeito > 
+Cliente "1" - - "*" Encomenda : faz >
+
+Morada "1" - - "*" Encomenda : recebe >
+
+Encomenda "*" - - "*" ProdutoAgricola : contém >
+
+GestorAgricola - -|> Pessoa
+Pessoa <|- - Condutor
+Condutor "*" - - "*" Hub : transporta para o >
+Condutor "*" - - "*" ProdutoAgricola : transporta >
+
+Hub "1" - - "*" Encomenda : contém >
+Hub "1" - - "1" Input_Hub : baseia-se >
+
+GestorAgricola "1" - - "1" CadernoCampo : regista no >
+
+CadernoCampo "1" - - "*" ResumoMeteorológico : contém >
+CadernoCampo "1" - - "*" Registo : contém >
+
+ResumoMeteorológico "*" - - "1" EstaçãoMeteorológica : contém >
+ResumoMeteorológico "*" - - "*" Medicoes : é feito através >
+Medicoes "*" - - "1" Sensor : são feitas pelo >
+Sensor "*" - - "*" ProcessoLeitura : executa >
+
+Registo <|- - RegistoFertelização
+Registo <|- - RegistoRega
+Registo <|- - RegistoColheita
+
+
+' ARQCP - Arquitetura de Computadores
+class Sensor {
+    -idSensor
+    -limiteMáximo
+    -limiteMínimo
+    -numeroLeituras
+}
+
+class GeradorValores {
+    -state
+    -inc
+}
+
+class MatrizDiáriaResumo {
+    -valorMáximo
+    -valorMínimo
+    -média
+}
+
+class SensorTemperatura
+class SensorVelocidadeVento
+class SensorDirecaoVento
+class SensorHumidadeAtmosferica
+class SensorHumidadeSolo
+class SensorPluvio
+
+class ValoresErrados
+
+class ReiniciarGeradorValores
+
+class FrequenciaLeitura
+
+class FicheiroConfiguracao
+
+class ExportarCSV
+
+
+SensorPluvio "1" - - "1" SensorTemperatura : é influenciado >
+SensorHumidadeAtmosferica "1" - - "1" SensorPluvio : é influenciado >
+SensorHumidadeSolo "1" - - "1" SensorPluvio : é influenciado >
+
+Sensor <|- - SensorTemperatura
+Sensor <|- - SensorVelocidadeVento
+Sensor <|- - SensorDirecaoVento
+Sensor <|- - SensorHumidadeAtmosferica
+Sensor <|- - SensorHumidadeSolo
+Sensor <|- - SensorPluvio
+
+Sensor "1" - - "1" GeradorValores : utiliza >
+Medicoes "*" - - "1" MatrizDiáriaResumo : origina >
+
+GeradorValores "1" - - "*" ValoresErrados : contém >
+ValoresErrados "*" - - "1" ReiniciarGeradorValores : fazem >
+
+Sensor "1" - - "1" FrequenciaLeitura : têm >
+FrequenciaLeitura "1" - - "1" FicheiroConfiguracao : é obtida através >
+
+ExportarCSV "1" - - "1" MatrizDiáriaResumo : é possível <
+ExportarCSV "1" - - "*" Sensor : é possível <
+
+
+' ESINF - Estruturas de Informação
+class Produtor
+
+class Stock
+
+class Particular
+
+class Empresa
+
+class FicheiroRega {
+    -parcela
+    -duração
+    -regularidade
+}
+
+class Cliente{
+    -locId
+    -lat
+    -lng
+    -codigo
+}
+
+class ListaExpedição
+
+class Estatisticas{
+    -porCabaz
+    -porCliente
+    -porProdutor
+    -porHub
+}
+
+Produtor "1" - - "1" Stock : têm >
+Stock "1" - - "*" ProdutoAgricola : é de >
+Produtor "1" - - "*" ProdutoAgricola : disponibiliza para venda >
+
+Cliente <|- - Particular
+Cliente <|- - Empresa
+Hub <|- - Empresa
+Pessoa <|- - Produtor
+
+Controlador "*"- - "1" FicheiroRega : obtem os dados >
+
+ListaExpedição "1" - - "*" Encomenda : é formada por >
+
+ListaExpedição "1" - - "1" Estatisticas : gera >
+
+' FSIAP - Fisica Aplicada
+class ArmazemAgricola {
+    -dimensoes
+}
+
+class Zona {
+    -dimensoes
+    -temperaturaAmbiente
+}
+
+class Material {
+    -descricao
+    -condutividadeTermica
+    -espessura
+    -caracteristicasTermicas
+}
+
+class Estrutura {
+    -dimensoes
+}
+
+class Porta {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Janela {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Parede {
+    -dimensoes
+    -resistenciaTermica
+}
+
+
+class Telhado {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Energia {
+    -quantidade
+}
+
+class Aquecedor
+
+class ArCondicionado
+
+class ControladorTemperatura {
+    -quantidadeCalor
+}
+
+class Exterior {
+    -temperatura
+}
+
+class ParedeInterior
+class ParedeExterior
+
+class ZonaA
+class ZonaB
+class ZonaC
+class ZonaD
+class ZonaE
+
+class Potencia {
+    -tempo
+}
+
+GestorAgricola "1" - - "*" ArmazemAgricola : tem >
+ArmazemAgricola "1" - - "*" Zona : é composto de >
+
+Zona <|- - ZonaA
+Zona <|- - ZonaB
+Zona <|- - ZonaC
+Zona <|- - ZonaD
+Zona <|- - ZonaE
+
+ArmazemAgricola "1" - - "1" Estrutura : tem >
+Estrutura "1" - - "*" Porta : tem >
+Estrutura "1" - - "*" Janela : tem >
+Estrutura "1" - - "*" Parede : tem >
+Estrutura "1" - - "1" Telhado : tem >
+Estrutura "1" - - "1" Energia : precisa de >
+
+Porta "*" - - "*" Material : é feita de >
+Janela "*" - - "*" Material : é feita de >
+Parede "*" - - "*" Material : é feita de >
+Telhado "*" - - "*" Material : é feita de >
+
+Zona "1" - - "1" Energia : precisa de >
+
+ControladorTemperatura <|- - Aquecedor
+ControladorTemperatura <|- - ArCondicionado
+
+Zona "1" - - "1" ControladorTemperatura : contém >
+
+Estrutura "1" - - Exterior : está em contacto >
+Zona "*" - - Exterior : está em contacto >
+
+Parede <|- - ParedeInterior
+Parede <|- - ParedeExterior
+
+Energia <|- - Potencia
+
+ArmazemAgricola "1" - - "*" ProdutoAgricola : guarda >
+
+@enduml
+
+@startuml Domain Model
+
+skinparam style strictuml
+skinparam DefaultFontStyle bold
+skinparam ArrowColor #gray
+hide empty members
+
+left to right direction
+
+
+class GestorAgricola
+
+class SistemaRega {
+    -tipoDistribuição
+    -tipoRega
+    -idGestorAgricola
+}
+
+class Controlador
+
+class PlanoRega {
+    -parcelasRega
+    -tempoRega
+    -periocidade
+}
+
+class Cultura {
+    -tipoCultura
+    -designação
+}
+
+class Safra {
+    -periocidade
+    -areaSafra
+    -quantidade
+    -lucro
+}
+
+class Setor {
+    -designação
+    -area
+}
+
+class OperacoesAgricolas {
+    -tipoOperacao
+    -dataAgendada
+    -dataRealizacao
+    -estadoOperacao
+}
+
+class RegistoOperacoesAgricolas {
+    -utilizador
+    -dataHora
+    -tipoAlteracao
+}
+
+class FatorProdução {
+    -classificaçãoFator
+    -nomeComercial
+    -formulacao
+    -fornecedor
+}
+
+class FichaTécnica {
+    -categoria
+}
+
+class Restricoes {
+    -dataInicioRestricao
+    -dataFimRestricao
+}
+
+class Elemento {
+    -substancia
+    -quantidade
+    -unidade
+}
+
+class AplicaçõesRealizar {
+    -quantidade
+    -dataPrevista
+}
+
+class PlanoAnual {
+    -correçõesMinerais
+    -fertilização
+    -necessidadeRega
+    -realizadoVia
+    -ano
+}
+
+class Incidente {
+    -valorDivida
+    -dataSanado
+    -dataOcorrencia
+}
+
+class EncomendasAnuais {
+    -numeroEncomendas
+    -valorTotalEncomendas
+}
+
+class Cliente {
+    -nivel
+    -plafond
+}
+
+class Morada {
+    -endereco
+    -codigoPostal
+}
+
+class Pessoa {
+    -nome
+    -nif
+    -email
+}
+
+class Encomenda {
+    -dataPedido
+    -dataVencimento
+    -dataPagamento
+    -dataEntrega
+    -estadoPedido
+    -valorTotal
+}
+
+class ProdutoAgricola {
+    -designação
+}
+
+class Condutor
+
+class Hub {
+    -codigoHub
+    -latitude
+    -longitude
+    -codigoEP
+}
+
+class Input_Hub {
+    -input_string
+}
+
+class CadernoCampo
+
+class EstaçãoMeteorológica {
+    -nomeEstacaoMeteorologica
+}
+
+class Registo {
+    -data
+    -parcela
+    -quantidade
+}
+
+class ResumoMeteorológico {
+    -resumoSensores
+    -resumoSolo
+    -dataResumo
+}
+
+class RegistoFertelização {
+    -tipoFertelização
+}
+
+class RegistoRega {
+    -descricao
+}
+
+class RegistoColheita {
+    -produtoColheita
+}
+
+class Medicoes {
+    -valorLido
+    -instanteLeitura
+}
+
+class Sensor {
+    -tipoSensor
+    -valorReferencia
+}
+
+class ProcessoLeitura {
+    -dataHora
+    -numRegistosLidos
+    -numRegistoInseridos
+    -numErros
+}
+
+
+GestorAgricola "1" - - "*" SistemaRega : gere >
+GestorAgricola "1" - - "*" Setor : gere >
+
+SistemaRega "1" - - "1" Controlador : contém >
+Controlador "1" - - "1" PlanoRega : define >
+PlanoRega "*" - - "*" Cultura : acontecem >
+
+Cultura "1" - - "*" Safra : acontece >
+Cultura "1" - - "*" AplicaçõesRealizar : realizam -se >
+AplicaçõesRealizar "*" - - "1" PlanoAnual : leva a realizar >
+Cultura "*" - - "*" ProdutoAgricola : gera >
+
+Setor "1" - - "*" Cultura : tem >
+Setor "1" - - "*" OperacoesAgricolas : ocorrem >
+Setor "1" - - "*" Restricoes : tem >
+
+OperacoesAgricolas "*" - - "*" FatorProdução : aplicam >
+OperacoesAgricolas "1" - - "1" RegistoOperacoesAgricolas : é ativado > 
+
+FatorProdução "1" - - "*" Restricoes : são aplicadas <
+FatorProdução "1" - - "1" FichaTécnica : contém >
+
+FichaTécnica "*" - - "*" Elemento : composto por >
+
+GestorAgricola "*" - - "*" Cliente : gere >
+
+Cliente "1" - - "*" Incidente : têm >
+Cliente "1" - - "1" EncomendasAnuais : têm >
+Cliente "1" - - "1" Morada : têm > 
+Cliente - -|> Pessoa
+Cliente "*" - - "1" Hub : têm por defeito > 
+Cliente "1" - - "*" Encomenda : faz >
+
+Morada "1" - - "*" Encomenda : recebe >
+
+Encomenda "*" - - "*" ProdutoAgricola : contém >
+
+GestorAgricola - -|> Pessoa
+Pessoa <|- - Condutor
+Condutor "*" - - "*" Hub : transporta para o >
+Condutor "*" - - "*" ProdutoAgricola : transporta >
+
+Hub "1" - - "*" Encomenda : contém >
+Hub "1" - - "1" Input_Hub : baseia-se >
+
+GestorAgricola "1" - - "1" CadernoCampo : regista no >
+
+CadernoCampo "1" - - "*" ResumoMeteorológico : contém >
+CadernoCampo "1" - - "*" Registo : contém >
+
+ResumoMeteorológico "*" - - "1" EstaçãoMeteorológica : contém >
+ResumoMeteorológico "*" - - "*" Medicoes : é feito através >
+Medicoes "*" - - "1" Sensor : são feitas pelo >
+Sensor "*" - - "*" ProcessoLeitura : executa >
+
+Registo <|- - RegistoFertelização
+Registo <|- - RegistoRega
+Registo <|- - RegistoColheita
+
+
+class Sensor {
+    -idSensor
+    -limiteMáximo
+    -limiteMínimo
+    -numeroLeituras
+}
+
+class GeradorValores {
+    -state
+    -inc
+}
+
+class MatrizDiáriaResumo {
+    -valorMáximo
+    -valorMínimo
+    -média
+}
+
+class SensorTemperatura
+class SensorVelocidadeVento
+class SensorDirecaoVento
+class SensorHumidadeAtmosferica
+class SensorHumidadeSolo
+class SensorPluvio
+
+class ValoresErrados
+
+class ReiniciarGeradorValores
+
+class FrequenciaLeitura
+
+class FicheiroConfiguracao
+
+class ExportarCSV
+
+
+SensorPluvio "1" - - "1" SensorTemperatura : é influenciado >
+SensorHumidadeAtmosferica "1" - - "1" SensorPluvio : é influenciado >
+SensorHumidadeSolo "1" - - "1" SensorPluvio : é influenciado >
+
+Sensor <|- - SensorTemperatura
+Sensor <|- - SensorVelocidadeVento
+Sensor <|- - SensorDirecaoVento
+Sensor <|- - SensorHumidadeAtmosferica
+Sensor <|- - SensorHumidadeSolo
+Sensor <|- - SensorPluvio
+
+Sensor "1" - - "1" GeradorValores : utiliza >
+Medicoes "*" - - "1" MatrizDiáriaResumo : origina >
+
+GeradorValores "1" - - "*" ValoresErrados : contém >
+ValoresErrados "*" - - "1" ReiniciarGeradorValores : fazem >
+
+Sensor "1" - - "1" FrequenciaLeitura : têm >
+FrequenciaLeitura "1" - - "1" FicheiroConfiguracao : é obtida através >
+
+ExportarCSV "1" - - "1" MatrizDiáriaResumo : é possível <
+ExportarCSV "1" - - "*" Sensor : é possível <
+
+
+class Produtor
+
+class Stock
+
+class Particular
+
+class Empresa
+
+class FicheiroRega {
+    -parcela
+    -duração
+    -regularidade
+}
+
+class Cliente{
+    -locId
+    -lat
+    -lng
+    -codigo
+}
+
+class ListaExpedição
+
+class Estatisticas{
+    -porCabaz
+    -porCliente
+    -porProdutor
+    -porHub
+}
+
+Produtor "1" - - "1" Stock : têm >
+Stock "1" - - "*" ProdutoAgricola : é de >
+Produtor "1" - - "*" ProdutoAgricola : disponibiliza para venda >
+
+Cliente <|- - Particular
+Cliente <|- - Empresa
+Hub <|- - Empresa
+Pessoa <|- - Produtor
+
+Controlador "*"- - "1" FicheiroRega : obtem os dados >
+
+ListaExpedição "1" - - "*" Encomenda : é formada por >
+
+ListaExpedição "1" - - "1" Estatisticas : gera >
+
+class ArmazemAgricola {
+    -dimensoes
+}
+
+class Zona {
+    -dimensoes
+    -temperaturaAmbiente
+}
+
+class Material {
+    -descricao
+    -condutividadeTermica
+    -espessura
+    -caracteristicasTermicas
+}
+
+class Estrutura {
+    -dimensoes
+}
+
+class Porta {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Janela {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Parede {
+    -dimensoes
+    -resistenciaTermica
+}
+
+
+class Telhado {
+    -dimensoes
+    -resistenciaTermica
+}
+
+class Energia {
+    -quantidade
+}
+
+class Aquecedor
+
+class ArCondicionado
+
+class ControladorTemperatura {
+    -quantidadeCalor
+}
+
+class Exterior {
+    -temperatura
+}
+
+class ParedeInterior
+class ParedeExterior
+
+class ZonaA
+class ZonaB
+class ZonaC
+class ZonaD
+class ZonaE
+
+class Potencia {
+    -tempo
+}
+
+GestorAgricola "1" - - "*" ArmazemAgricola : tem >
+ArmazemAgricola "1" - - "*" Zona : é composto de >
+
+Zona <|- - ZonaA
+Zona <|- - ZonaB
+Zona <|- - ZonaC
+Zona <|- - ZonaD
+Zona <|- - ZonaE
+
+ArmazemAgricola "1" - - "1" Estrutura : tem >
+Estrutura "1" - - "*" Porta : tem >
+Estrutura "1" - - "*" Janela : tem >
+Estrutura "1" - - "*" Parede : tem >
+Estrutura "1" - - "1" Telhado : tem >
+Estrutura "1" - - "1" Energia : precisa de >
+
+Porta "*" - - "*" Material : é feita de >
+Janela "*" - - "*" Material : é feita de >
+Parede "*" - - "*" Material : é feita de >
+Telhado "*" - - "*" Material : é feita de >
+
+Zona "1" - - "1" Energia : precisa de >
+
+ControladorTemperatura <|- - Aquecedor
+ControladorTemperatura <|- - ArCondicionado
+
+Zona "1" - - "1" ControladorTemperatura : contém >
+
+Estrutura "1" - - Exterior : está em contacto >
+Zona "*" - - Exterior : está em contacto >
+
+Parede <|- - ParedeInterior
+Parede <|- - ParedeExterior
+
+Energia <|- - Potencia
+
+ArmazemAgricola "1" - - "*" ProdutoAgricola : guarda >
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,30 @@
+@startuml
+
+left to right direction
+
+class Location{
+    - String locationID 
+    - Double lat 
+    - Double long
+}
+
+class Member{
+    - String memberID
+}
+
+class Client{
+    String clientType
+}
+
+class Producer{
+}
+
+Member "1" -- "1" Location
+
+class Client extends Member
+class Producer extends Member
+class Producer #palegreen
+class Client #lightblue
+abstract class Member #orange
+
+@enduml
